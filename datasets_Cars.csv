@@ -1,0 +1,857 @@
+Make,Model,Type,MSRP,Fuel,Air Pollution Score,Invoice,EngineSize,Cert Region,Cylinders,Horsepower,MPG_City,MPG_Highway,Weight,Wheelbase,Length,Origin,DriveTrain
+Acura,3.5 RL 4dr,Sedan,"$43,755",Diesel,5,"$39,014",3.5,CA,6,225,18,24,3880,115,197,Asia,Front
+Acura,3.5 RL 4dr,Sedan,"$39,014",Diesel,5,"$43,755",3.5,FA,6,225,18,24,3880,115,197,Asia,Front
+Acura,3.5 RL w/Navigation 4dr,Sedan,"$46,100",Diesel,5,"$41,100",3.5,FA,6,225,18,24,3893,115,197,Asia,Front
+Acura,3.5 RL w/Navigation 4dr,Sedan,"$41,100",Diesel,5,"$46,100",3.5,CA,6,225,18,24,3893,115,197,Asia,Front
+Chrysler,300M 4dr,Sedan,"$29,865",Hydrogen,5,"$27,797",3.5,CA,6,250,18,27,3581,113,198,USA,Front
+Chrysler,300M 4dr,Sedan,"$27,797",Hydrogen,5,"$29,865",3.5,FA,6,250,18,27,3581,113,198,USA,Front
+Chrysler,300M Special Edition 4dr,Sedan,"$33,295",Hydrogen,5,"$30,884",3.5,FA,6,255,18,27,3650,113,198,USA,Front
+Chrysler,300M Special Edition 4dr,Sedan,"$30,884",Hydrogen,5,"$33,295",3.5,FA,6,255,18,27,3650,113,198,USA,Front
+BMW,325Ci 2dr,Sedan,"$30,795",Electric,5,"$28,245",2.5,FA,6,184,20,29,3197,107,177,Europe,Rear
+BMW,325Ci 2dr,Sedan,"$28,245",Electric,5,"$30,795",2.5,FA,6,184,20,29,3197,107,177,Europe,Rear
+BMW,325Ci convertible 2dr,Sedan,"$37,995",Electric,5,"$34,800",2.5,FA,6,184,19,27,3560,107,177,Europe,Rear
+BMW,325Ci convertible 2dr,Sedan,"$34,800",Electric,5,"$37,995",2.5,FA,6,184,19,27,3560,107,177,Europe,Rear
+BMW,325i 4dr,Sedan,"$28,495",Electric,5,"$26,155",2.5,FA,6,184,20,29,3219,107,176,Europe,Rear
+BMW,325i 4dr,Sedan,"$26,155",Electric,5,"$28,495",2.5,FA,6,184,20,29,3219,107,176,Europe,Rear
+BMW,325xi 4dr,Sedan,"$30,245",Electric,5,"$27,745",2.5,FA,6,184,19,27,3461,107,176,Europe,All
+BMW,325xi 4dr,Sedan,"$27,745",Electric,5,"$30,245",2.5,FA,6,184,19,27,3461,107,176,Europe,All
+BMW,325xi Sport,Wagon,"$32,845",Electric,5,"$30,110",2.5,FA,6,184,19,26,3594,107,176,Europe,All
+BMW,325xi Sport,Wagon,"$30,110",Electric,5,"$32,845",2.5,FA,6,184,19,26,3594,107,176,Europe,All
+BMW,330Ci 2dr,Sedan,"$36,995",Electric,5,"$33,890",3,FA,6,225,20,30,3285,107,176,Europe,Rear
+BMW,330Ci 2dr,Sedan,"$33,890",Electric,5,"$36,995",3,FA,6,225,20,30,3285,107,176,Europe,Rear
+BMW,330Ci convertible 2dr,Sedan,"$44,295",Electric,5,"$40,530",3,FA,6,225,19,28,3616,107,177,Europe,Rear
+BMW,330Ci convertible 2dr,Sedan,"$40,530",Electric,5,"$44,295",3,FA,6,225,19,28,3616,107,177,Europe,Rear
+BMW,330i 4dr,Sedan,"$35,495",Electric,5,"$32,525",3,FA,6,225,20,30,3285,107,176,Europe,Rear
+BMW,330i 4dr,Sedan,"$32,525",Electric,5,"$35,495",3,FA,6,225,20,30,3285,107,176,Europe,Rear
+BMW,330xi 4dr,Sedan,"$37,245",Electric,5,"$34,115",3,FA,6,225,20,29,3483,107,176,Europe,All
+BMW,330xi 4dr,Sedan,"$34,115",Electric,5,"$37,245",3,FA,6,225,20,29,3483,107,176,Europe,All
+Nissan,350Z coupe 2dr,Sports,"$26,910",Diesel,5,"$25,203",3.5,FA,6,287,20,26,3188,104,169,Asia,Rear
+Nissan,350Z coupe 2dr,Sports,"$25,203",Diesel,5,"$26,910",3.5,FA,6,287,20,26,3188,104,169,Asia,Rear
+Nissan,350Z Enthusiast convertible 2dr,Sports,"$34,390",Diesel,5,"$31,845",3.5,FA,6,287,20,26,3428,104,169,Asia,Rear
+Nissan,350Z Enthusiast convertible 2dr,Sports,"$31,845",Diesel,5,"$34,390",3.5,FA,6,287,20,26,3428,104,169,Asia,Rear
+Toyota,4Runner SR5 V6,SUV,"$27,710",Diesel,5,"$24,801",4,FA,6,245,18,21,4035,110,189,Asia,Front
+Toyota,4Runner SR5 V6,SUV,"$24,801",Diesel,5,"$27,710",4,FA,6,245,18,21,4035,110,189,Asia,Front
+BMW,525i 4dr,Sedan,"$39,995",Electric,5,"$36,620",2.5,FA,6,184,19,28,3428,114,191,Europe,Rear
+BMW,525i 4dr,Sedan,"$36,620",Electric,5,"$39,995",2.5,FA,6,184,19,28,3428,114,191,Europe,Rear
+BMW,530i 4dr,Sedan,"$44,995",Electric,5,"$41,170",3,FA,6,225,20,30,3472,114,191,Europe,Rear
+BMW,530i 4dr,Sedan,"$41,170",Electric,5,"$44,995",3,FA,6,225,20,30,3472,114,191,Europe,Rear
+BMW,545iA 4dr,Sedan,"$54,995",Electric,5,"$50,270",4.4,FA,8,325,18,26,3814,114,191,Europe,Rear
+BMW,545iA 4dr,Sedan,"$50,270",Electric,5,"$54,995",4.4,FA,8,325,18,26,3814,114,191,Europe,Rear
+BMW,745i 4dr,Sedan,"$69,195",Electric,5,"$63,190",4.4,FA,8,325,18,26,4376,118,198,Europe,Rear
+BMW,745i 4dr,Sedan,"$63,190",Electric,5,"$69,195",4.4,FA,8,325,18,26,4376,118,198,Europe,Rear
+BMW,745Li 4dr,Sedan,"$73,195",Electric,5,"$66,830",4.4,FA,8,325,18,26,4464,123,204,Europe,Rear
+BMW,745Li 4dr,Sedan,"$66,830",Electric,5,"$73,195",4.4,FA,8,325,18,26,4464,123,204,Europe,Rear
+Porsche,911 Carrera 4S coupe 2dr (convert),Sports,"$84,165",Electric,5,"$72,206",3.6,FA,6,315,17,24,3240,93,175,Europe,All
+Porsche,911 Carrera 4S coupe 2dr (convert),Sports,"$72,206",Electric,5,"$84,165",3.6,FA,6,315,17,24,3240,93,175,Europe,All
+Porsche,911 Carrera convertible 2dr (coupe),Sports,"$79,165",Electric,5,"$69,229",3.6,FA,6,315,18,26,3135,93,175,Europe,Rear
+Porsche,911 Carrera convertible 2dr (coupe),Sports,"$69,229",Electric,5,"$79,165",3.6,FA,6,315,18,26,3135,93,175,Europe,Rear
+Porsche,911 GT2 2dr,Sports,"$192,465",Electric,5,"$173,560",3.6,FA,6,477,17,24,3131,93,175,Europe,Rear
+Porsche,911 GT2 2dr,Sports,"$173,560",Electric,5,"$192,465",3.6,FA,6,477,17,24,3131,93,175,Europe,Rear
+Porsche,911 Targa coupe 2dr,Sports,"$76,765",Electric,5,"$67,128",3.6,FA,6,315,18,26,3119,93,175,Europe,Rear
+Porsche,911 Targa coupe 2dr,Sports,"$67,128",Electric,6,"$76,765",3.6,FA,6,315,18,26,3119,93,175,Europe,Rear
+Saab,9-3 Aero 4dr,Sedan,"$33,360",Electric,6,"$31,562",2,FA,4,210,20,28,3175,105,183,Europe,Front
+Saab,9-3 Aero 4dr,Sedan,"$31,562",Electric,6,"$33,360",2,FA,4,210,20,28,3175,105,183,Europe,Front
+Saab,9-3 Aero convertible 2dr,Sedan,"$43,175",Electric,6,"$40,883",2,FA,4,210,21,30,3700,105,182,Europe,Front
+Saab,9-3 Aero convertible 2dr,Sedan,"$40,883",Gasline,6,"$43,175",2,FA,4,210,21,30,3700,105,182,Europe,Front
+Saab,9-3 Arc convertible 2dr,Sedan,"$40,670",Gasline,6,"$38,520",2,FA,4,210,21,29,3480,105,182,Europe,Front
+Saab,9-3 Arc convertible 2dr,Sedan,"$38,520",Gasline,6,"$40,670",2,FA,4,210,21,29,3480,105,182,Europe,Front
+Saab,9-3 Arc Sport 4dr,Sedan,"$30,860",Gasline,6,"$29,269",2,FA,4,210,20,28,3175,105,183,Europe,Front
+Saab,9-3 Arc Sport 4dr,Sedan,"$29,269",Gasline,6,"$30,860",2,FA,4,210,20,28,3175,105,183,Europe,Front
+Saab,9-5 Aero,Wagon,"$40,845",Gasline,6,"$38,376",2.3,FA,4,250,19,29,3620,106,190,Europe,Front
+Saab,9-5 Aero,Wagon,"$38,376",Gasline,6,"$40,845",2.3,FA,4,250,19,29,3620,106,190,Europe,Front
+Saab,9-5 Aero 4dr,Sedan,"$39,465",Gasline,6,"$37,721",2.3,FA,4,250,21,29,3470,106,190,Europe,Front
+Saab,9-5 Aero 4dr,Sedan,"$37,721",Gasline,6,"$39,465",2.3,FA,4,250,21,29,3470,106,190,Europe,Front
+Saab,9-5 Arc 4dr,Sedan,"$35,105",Gasline,6,"$33,011",2.3,FA,4,220,21,29,3470,106,190,Europe,Front
+Saab,9-5 Arc 4dr,Sedan,"$33,011",Gasline,6,"$35,105",2.3,FA,4,220,21,29,3470,106,190,Europe,Front
+Audi,A4 1.8T 4dr,Sedan,"$25,940",Gasline,6,"$23,508",1.8,FA,4,170,22,31,3252,104,179,Europe,Front
+Audi,A4 1.8T 4dr,Sedan,"$23,508",Gasline,6,"$25,940",1.8,FA,4,170,22,31,3252,104,179,Europe,Front
+Audi,A4 3.0 4dr,Sedan,"$31,840",Gasline,6,"$28,846",3,FA,6,220,20,28,3462,104,179,Europe,Front
+Audi,A4 3.0 4dr,Sedan,"$28,846",Gasline,6,"$31,840",3,FA,6,220,20,28,3462,104,179,Europe,Front
+Audi,A4 3.0 convertible 2dr,Sedan,"$42,490",Gasline,6,"$38,325",3,FA,6,220,20,27,3814,105,180,Europe,Front
+Audi,A4 3.0 convertible 2dr,Sedan,"$38,325",Gasline,6,"$42,490",3,FA,6,220,20,27,3814,105,180,Europe,Front
+Audi,A4 3.0 Quattro 4dr auto,Sedan,"$34,480",Gasline,6,"$31,388",3,FA,6,220,18,25,3627,104,179,Europe,All
+Audi,A4 3.0 Quattro 4dr auto,Sedan,"$31,388",Gasline,6,"$34,480",3,FA,6,220,18,25,3627,104,179,Europe,All
+Audi,A4 3.0 Quattro 4dr manual,Sedan,"$33,430",Gasline,6,"$30,366",3,FA,6,220,17,26,3583,104,179,Europe,All
+Audi,A4 3.0 Quattro 4dr manual,Sedan,"$30,366",Gasline,6,"$33,430",3,FA,6,220,17,26,3583,104,179,Europe,All
+Audi,A4 3.0 Quattro convertible 2dr,Sedan,"$44,240",Gasline,6,"$40,075",3,FA,6,220,18,25,4013,105,180,Europe,All
+Audi,A4 3.0 Quattro convertible 2dr,Sedan,"$40,075",Gasline,6,"$44,240",3,FA,6,220,18,25,4013,105,180,Europe,All
+Audi,A41.8T convertible 2dr,Sedan,"$35,940",Gasline,6,"$32,506",1.8,FA,4,170,23,30,3638,105,180,Europe,Front
+Audi,A41.8T convertible 2dr,Sedan,"$32,506",Gasline,6,"$35,940",1.8,FA,4,170,23,30,3638,105,180,Europe,Front
+Audi,A6 2.7 Turbo Quattro 4dr,Sedan,"$42,840",Gasline,6,"$38,840",2.7,FA,6,250,18,25,3836,109,192,Europe,All
+Audi,A6 2.7 Turbo Quattro 4dr,Sedan,"$38,840",Gasline,6,"$42,840",2.7,FA,6,250,18,25,3836,109,192,Europe,All
+Audi,A6 3.0 4dr,Sedan,"$36,640",Gasline,6,"$33,129",3,FA,6,220,20,27,3561,109,192,Europe,Front
+Audi,A6 3.0 4dr,Sedan,"$33,129",Gasline,6,"$36,640",3,FA,6,220,20,27,3561,109,192,Europe,Front
+Audi,A6 3.0 Avant Quattro,Wagon,"$40,840",Gasline,6,"$37,060",3,FA,6,220,18,25,4035,109,192,Europe,All
+Audi,A6 3.0 Avant Quattro,Wagon,"$37,060",Gasline,6,"$40,840",3,FA,6,220,18,25,4035,109,192,Europe,All
+Audi,A6 3.0 Quattro 4dr,Sedan,"$39,640",Gasline,6,"$35,992",3,FA,6,220,18,25,3880,109,192,Europe,All
+Audi,A6 3.0 Quattro 4dr,Sedan,"$35,992",Gasline,6,"$39,640",3,FA,6,220,18,25,3880,109,192,Europe,All
+Audi,A6 4.2 Quattro 4dr,Sedan,"$49,690",Gasline,6,"$44,936",4.2,FA,8,300,17,24,4024,109,193,Europe,All
+Audi,A6 4.2 Quattro 4dr,Sedan,"$44,936",Gasline,6,"$49,690",4.2,FA,8,300,17,24,4024,109,193,Europe,All
+Audi,A8 L Quattro 4dr,Sedan,"$69,190",Gasline,6,"$64,740",4.2,FA,8,330,17,24,4399,121,204,Europe,All
+Audi,A8 L Quattro 4dr,Sedan,"$64,740",Gasline,6,"$69,190",4.2,FA,8,330,17,24,4399,121,204,Europe,All
+Hyundai,Accent 2dr hatch,Sedan,"$10,539",Diesel,8,"$10,107",1.6,CA,4,103,29,33,2255,96,167,Asia,Front
+Hyundai,Accent 2dr hatch,Sedan,"$10,107",Diesel,8,"$10,539",1.6,CA,4,103,29,33,2255,96,167,Asia,Front
+Hyundai,Accent GL 4dr,Sedan,"$11,839",Diesel,8,"$11,116",1.6,CA,4,103,29,33,2290,96,167,Asia,Front
+Hyundai,Accent GL 4dr,Sedan,"$11,116",Diesel,8,"$11,839",1.6,CA,4,103,29,33,2290,96,167,Asia,Front
+Hyundai,Accent GT 2dr hatch,Sedan,"$11,939",Diesel,8,"$11,209",1.6,CA,4,103,29,33,2339,96,167,Asia,Front
+Hyundai,Accent GT 2dr hatch,Sedan,"$11,209",Diesel,8,"$11,939",1.6,CA,4,103,29,33,2339,96,167,Asia,Front
+Honda,Accord EX 2dr,Sedan,"$22,260",Diesel,8,"$20,080",2.4,CA,4,160,26,34,3047,105,188,Asia,Front
+Honda,Accord EX 2dr,Sedan,"$20,080",Diesel,8,"$22,260",2.4,CA,4,160,26,34,3047,105,188,Asia,Front
+Honda,Accord EX V6 2dr,Sedan,"$26,960",Diesel,8,"$24,304",3,CA,6,240,21,30,3294,105,188,Asia,Front
+Honda,Accord EX V6 2dr,Sedan,"$24,304",Diesel,8,"$26,960",3,CA,6,240,21,30,3294,105,188,Asia,Front
+Honda,Accord LX 2dr,Sedan,"$19,860",Diesel,8,"$17,924",2.4,CA,4,160,26,34,2994,105,188,Asia,Front
+Honda,Accord LX 2dr,Sedan,"$17,924",Diesel,8,"$19,860",2.4,CA,4,160,26,34,2994,105,188,Asia,Front
+Honda,Accord LX V6 4dr,Sedan,"$23,760",Diesel,8,"$21,428",3,CA,6,240,21,30,3349,108,190,Asia,Front
+Honda,Accord LX V6 4dr,Sedan,"$21,428",Diesel,8,"$23,760",3,CA,6,240,21,30,3349,108,190,Asia,Front
+Suzuki,Aeno S 4dr,Sedan,"$12,884",Diesel,8,"$12,719",2.3,CA,4,155,25,31,2676,98,171,Asia,Front
+Suzuki,Aeno S 4dr,Sedan,"$12,719",Diesel,8,"$12,884",2.3,CA,4,155,25,31,2676,98,171,Asia,Front
+Suzuki,Aerio LX 4dr,Sedan,"$14,500",Diesel,8,"$14,317",2.3,CA,4,155,25,31,2676,98,171,Asia,Front
+Suzuki,Aerio LX 4dr,Sedan,"$14,317",Diesel,8,"$14,500",2.3,CA,4,155,25,31,2676,98,171,Asia,Front
+Suzuki,Aerio SX,Wagon,"$16,497",Diesel,8,"$16,291",2.3,CA,4,155,24,29,2932,98,167,Asia,All
+Suzuki,Aerio SX,Wagon,"$16,291",Diesel,8,"$16,497",2.3,CA,4,155,24,29,2932,98,167,Asia,All
+Oldsmobile,Alero GLS 2dr,Sedan,"$23,675",Hydrogen,8,"$21,485",3.4,CA,6,170,20,29,3085,107,187,USA,Front
+Oldsmobile,Alero GLS 2dr,Sedan,"$21,485",Hydrogen,8,"$23,675",3.4,CA,6,170,20,29,3085,107,187,USA,Front
+Oldsmobile,Alero GX 2dr,Sedan,"$18,825",Hydrogen,8,"$17,642",2.2,CA,4,140,24,32,2946,107,187,USA,Front
+Oldsmobile,Alero GX 2dr,Sedan,"$17,642",Hydrogen,8,"$18,825",2.2,CA,4,140,24,32,2946,107,187,USA,Front
+Nissan,Altima S 4dr,Sedan,"$19,240",Diesel,8,"$18,030",2.5,CA,4,175,21,26,3039,110,192,Asia,Front
+Nissan,Altima S 4dr,Sedan,"$18,030",Diesel,8,"$19,240",2.5,CA,4,175,21,26,3039,110,192,Asia,Front
+Nissan,Altima SE 4dr,Sedan,"$23,290",Diesel,8,"$21,580",3.5,CA,6,245,21,26,3197,110,192,Asia,Front
+Nissan,Altima SE 4dr,Sedan,"$21,580",Diesel,8,"$23,290",3.5,CA,6,245,21,26,3197,110,192,Asia,Front
+Kia,Amanti 4dr,Sedan,"$26,000",Diesel,8,"$23,764",3.5,CA,6,195,17,25,4021,110,196,Asia,Front
+Kia,Amanti 4dr,Sedan,"$23,764",Diesel,8,"$26,000",3.5,CA,6,195,17,25,4021,110,196,Asia,Front
+Isuzu,Ascender S,SUV,"$31,849",Diesel,8,"$29,977",4.2,CA,6,275,15,20,4967,129,208,Asia,All
+Isuzu,Ascender S,SUV,"$29,977",Diesel,8,"$31,849",4.2,CA,6,275,15,20,4967,129,208,Asia,All
+Chevrolet,Astro,Sedan,"$26,395",Hydrogen,8,"$23,954",4.3,CA,6,190,14,17,4605,111,190,USA,All
+Chevrolet,Astro,Sedan,"$23,954",Hydrogen,8,"$26,395",4.3,CA,6,190,14,17,4605,111,190,USA,All
+Chevrolet,Avalanche 1500,Truck,"$36,100",Hydrogen,8,"$31,689",5.3,CA,8,295,14,18,5678,130,222,USA,All
+Chevrolet,Avalanche 1500,Truck,"$31,689",Hydrogen,8,"$36,100",5.3,CA,8,295,14,18,5678,130,222,USA,All
+Toyota,Avalon XL 4dr,Sedan,"$26,560",Diesel,8,"$23,693",3,CA,6,210,21,29,3417,107,192,Asia,Front
+Toyota,Avalon XL 4dr,Sedan,"$23,693",Diesel,8,"$26,560",3,CA,6,210,21,29,3417,107,192,Asia,Front
+Toyota,Avalon XLS 4dr,Sedan,"$30,920",Diesel,8,"$27,271",3,CA,6,210,21,29,3439,107,192,Asia,Front
+Toyota,Avalon XLS 4dr,Sedan,"$27,271",Diesel,8,"$30,920",3,CA,6,210,21,29,3439,107,192,Asia,Front
+Chevrolet,Aveo 4dr,Sedan,"$11,690",Hydrogen,8,"$10,965",1.6,CA,4,103,28,34,2370,98,167,USA,Front
+Chevrolet,Aveo 4dr,Sedan,"$10,965",Hydrogen,8,"$11,690",1.6,CA,4,103,28,34,2370,98,167,USA,Front
+Chevrolet,Aveo LS 4dr hatch,Sedan,"$12,585",Hydrogen,8,"$11,802",1.6,CA,4,103,28,34,2348,98,153,USA,Front
+Chevrolet,Aveo LS 4dr hatch,Sedan,"$11,802",Hydrogen,8,"$12,585",1.6,CA,4,103,28,34,2348,98,153,USA,Front
+Lincoln,Aviator Ultimate,SUV,"$42,915",Hydrogen,8,"$39,443",4.6,CA,8,302,13,18,4834,114,193,USA,Front
+Lincoln,Aviator Ultimate,SUV,"$39,443",Hydrogen,8,"$42,915",4.6,CA,8,302,13,18,4834,114,193,USA,Front
+Pontiac,Aztekt,SUV,"$21,595",Hydrogen,8,"$19,810",3.4,CA,6,185,19,26,3779,108,182,USA,Front
+Pontiac,Aztekt,SUV,"$19,810",Hydrogen,8,"$21,595",3.4,CA,6,185,19,26,3779,108,182,USA,Front
+Mazda,B2300 SX Regular Cab,Truck,"$14,840",Diesel,8,"$14,070",2.3,CA,4,143,24,29,2960,112,188,Asia,Rear
+Mazda,B2300 SX Regular Cab,Truck,"$14,070",Diesel,8,"$14,840",2.3,CA,4,143,24,29,2960,112,188,Asia,Rear
+Mazda,B4000 SE Cab Plus,Truck,"$22,350",Diesel,8,"$20,482",4,CA,6,207,15,19,3571,126,203,Asia,All
+Mazda,B4000 SE Cab Plus,Truck,"$20,482",Diesel,8,"$22,350",4,CA,6,207,15,19,3571,126,203,Asia,All
+Subaru,Baja,Truck,"$24,520",Diesel,8,"$22,304",2.5,FA,4,165,21,28,3485,104,193,Asia,All
+Subaru,Baja,Truck,"$22,304",Diesel,8,"$24,520",2.5,FA,4,165,21,28,3485,104,193,Asia,All
+Pontiac,Bonneville GXP 4dr,Sedan,"$35,995",Hydrogen,8,"$32,997",4.6,FA,8,275,17,20,3790,112,203,USA,Front
+Pontiac,Bonneville GXP 4dr,Sedan,"$32,997",Hydrogen,8,"$35,995",4.6,FA,8,275,17,20,3790,112,203,USA,Front
+Porsche,Boxster convertible 2dr,Sports,"$43,365",Gasline,6,"$37,886",2.7,FA,6,228,20,29,2811,95,170,Europe,Rear
+Porsche,Boxster convertible 2dr,Sports,"$37,886",Gasline,6,"$43,365",2.7,FA,6,228,20,29,2811,95,170,Europe,Rear
+Porsche,Boxster S convertible 2dr,Sports,"$52,365",Gasline,6,"$45,766",3.2,FA,6,258,18,26,2911,95,170,Europe,Rear
+Porsche,Boxster S convertible 2dr,Sports,"$45,766",Gasline,6,"$52,365",3.2,FA,6,258,18,26,2911,95,170,Europe,Rear
+Mercedes-Benz,C230 Sport 2dr,Sedan,"$26,060",Gasline,6,"$24,249",1.8,FA,4,189,22,30,3250,107,178,Europe,Rear
+Mercedes-Benz,C230 Sport 2dr,Sedan,"$24,249",Gasline,6,"$26,060",1.8,FA,4,189,22,30,3250,107,178,Europe,Rear
+Mercedes-Benz,C240,Wagon,"$33,780",Gasline,6,"$31,466",2.6,FA,6,168,19,25,3470,107,179,Europe,Rear
+Mercedes-Benz,C240,Wagon,"$31,466",Gasline,6,"$33,780",2.6,FA,6,168,19,25,3470,107,179,Europe,Rear
+Mercedes-Benz,C240 4dr,Sedan,"$32,280",Gasline,6,"$30,071",2.6,FA,6,168,20,25,3360,107,178,Europe,Rear
+Mercedes-Benz,C240 4dr,Sedan,"$33,480",Gasline,6,"$31,187",2.6,FA,6,168,19,25,3360,107,178,Europe,All
+Mercedes-Benz,C240 4dr,Sedan,"$30,071",Gasline,6,"$32,280",2.6,FA,6,168,20,25,3360,107,178,Europe,Rear
+Mercedes-Benz,C240 4dr,Sedan,"$31,187",Gasline,6,"$33,480",2.6,FA,6,168,19,25,3360,107,178,Europe,All
+Mercedes-Benz,C32 AMG 4dr,Sedan,"$52,120",Gasline,6,"$48,522",3.2,FA,6,349,16,21,3540,107,178,Europe,Rear
+Mercedes-Benz,C32 AMG 4dr,Sedan,"$48,522",Gasline,6,"$52,120",3.2,FA,6,349,16,21,3540,107,178,Europe,Rear
+Mercedes-Benz,C320 4dr,Sedan,"$37,630",Gasline,6,"$35,046",3.2,FA,6,215,20,26,3450,107,178,Europe,Rear
+Mercedes-Benz,C320 4dr,Sedan,"$38,830",Gasline,6,"$36,162",3.2,FA,6,215,19,27,3450,107,178,Europe,All
+Mercedes-Benz,C320 4dr,Sedan,"$35,046",Gasline,6,"$37,630",3.2,FA,6,215,20,26,3450,107,178,Europe,Rear
+Mercedes-Benz,C320 4dr,Sedan,"$36,162",Gasline,6,"$38,830",3.2,FA,6,215,19,27,3450,107,178,Europe,All
+Mercedes-Benz,C320 Sport 2dr,Sedan,"$28,370",Gasline,6,"$26,435",3.2,FA,6,215,19,26,3430,107,178,Europe,Rear
+Mercedes-Benz,C320 Sport 2dr,Sedan,"$26,435",Gasline,6,"$28,370",3.2,FA,6,215,19,26,3430,107,178,Europe,Rear
+Mercedes-Benz,C320 Sport 4dr,Sedan,"$35,920",Gasline,6,"$33,456",3.2,FA,6,215,19,26,3430,107,178,Europe,Rear
+Mercedes-Benz,C320 Sport 4dr,Sedan,"$33,456",Gasline,6,"$35,920",3.2,FA,6,215,19,26,3430,107,178,Europe,Rear
+Volvo,C70 HPT convertible 2dr,Sedan,"$42,565",Gasline,6,"$40,083",2.3,FA,5,242,20,26,3450,105,186,Europe,Front
+Volvo,C70 HPT convertible 2dr,Sedan,"$40,083",Gasline,6,"$42,565",2.3,FA,5,242,20,26,3450,105,186,Europe,Front
+Volvo,C70 LPT convertible 2dr,Sedan,"$40,565",Gasline,6,"$38,203",2.4,FA,5,197,21,28,3450,105,186,Europe,Front
+Volvo,C70 LPT convertible 2dr,Sedan,"$38,203",Gasline,6,"$40,565",2.4,FA,5,197,21,28,3450,105,186,Europe,Front
+Toyota,Camry LE 4dr,Sedan,"$19,560",Diesel,8,"$17,558",2.4,FA,4,157,24,33,3086,107,189,Asia,Front
+Toyota,Camry LE 4dr,Sedan,"$17,558",Diesel,8,"$19,560",2.4,FA,4,157,24,33,3086,107,189,Asia,Front
+Toyota,Camry LE V6 4dr,Sedan,"$22,775",Diesel,8,"$20,325",3,FA,6,210,21,29,3296,107,189,Asia,Front
+Toyota,Camry LE V6 4dr,Sedan,"$20,325",Diesel,8,"$22,775",3,FA,6,210,21,29,3296,107,189,Asia,Front
+Toyota,Camry Solara SE 2dr,Sedan,"$19,635",Diesel,8,"$17,722",2.4,FA,4,157,24,33,3175,107,193,Asia,Front
+Toyota,Camry Solara SE 2dr,Sedan,"$17,722",Diesel,8,"$19,635",2.4,FA,4,157,24,33,3175,107,193,Asia,Front
+Toyota,Camry Solara SE V6 2dr,Sedan,"$21,965",Diesel,8,"$19,819",3.3,FA,6,225,20,29,3417,107,193,Asia,Front
+Toyota,Camry Solara SE V6 2dr,Sedan,"$19,819",Diesel,8,"$21,965",3.3,FA,6,225,20,29,3417,107,193,Asia,Front
+Toyota,Camry Solara SLE V6 2dr,Sedan,"$26,510",Diesel,8,"$23,908",3.3,FA,6,225,20,29,3439,107,193,Asia,Front
+Toyota,Camry Solara SLE V6 2dr,Sedan,"$23,908",Diesel,8,"$26,510",3.3,FA,6,225,20,29,3439,107,193,Asia,Front
+Toyota,Camry XLE V6 4dr,Sedan,"$25,920",Diesel,8,"$23,125",3,FA,6,210,21,29,3362,107,189,Asia,Front
+Toyota,Camry XLE V6 4dr,Sedan,"$23,125",Diesel,8,"$25,920",3,FA,6,210,21,29,3362,107,189,Asia,Front
+GMC,Canyon Z85 SL Regular Cab,Truck,"$16,530",Hydrogen,8,"$14,877",2.8,FA,4,175,18,25,3351,111,192,USA,Rear
+GMC,Canyon Z85 SL Regular Cab,Truck,"$14,877",Hydrogen,8,"$16,530",2.8,FA,4,175,18,25,3351,111,192,USA,Rear
+Dodge,Caravan SE,Sedan,"$21,795",Hydrogen,8,"$20,508",2.4,FA,4,150,20,26,3862,113,189,USA,Front
+Dodge,Caravan SE,Sedan,"$20,508",Hydrogen,8,"$21,795",2.4,FA,4,150,20,26,3862,113,189,USA,Front
+Chevrolet,Cavalier 2dr,Sedan,"$14,610",Hydrogen,8,"$13,697",2.2,FA,4,140,26,37,2617,104,183,USA,Front
+Chevrolet,Cavalier 2dr,Sedan,"$13,697",Hydrogen,8,"$14,610",2.2,FA,4,140,26,37,2617,104,183,USA,Front
+Chevrolet,Cavalier 4dr,Sedan,"$14,810",Hydrogen,8,"$13,884",2.2,FA,4,140,26,37,2676,104,183,USA,Front
+Chevrolet,Cavalier 4dr,Sedan,"$13,884",Hydrogen,8,"$14,810",2.2,FA,4,140,26,37,2676,104,183,USA,Front
+Chevrolet,Cavalier LS 2dr,Sedan,"$16,385",Hydrogen,8,"$15,357",2.2,FA,4,140,26,37,2617,104,183,USA,Front
+Chevrolet,Cavalier LS 2dr,Sedan,"$15,357",Hydrogen,8,"$16,385",2.2,FA,4,140,26,37,2617,104,183,USA,Front
+Porsche,Cayenne S,SUV,"$56,665",Gasline,6,"$49,865",4.5,FA,8,340,14,18,4950,112,188,Europe,All
+Porsche,Cayenne S,SUV,"$49,865",Gasline,6,"$56,665",4.5,FA,8,340,14,18,4950,112,188,Europe,All
+Toyota,Celica GT-S 2dr,Sports,"$22,570",Diesel,8,"$20,363",1.8,FA,4,180,24,33,2500,102,171,Asia,Front
+Toyota,Celica GT-S 2dr,Sports,"$20,363",Diesel,8,"$22,570",1.8,FA,4,180,24,33,2500,102,171,Asia,Front
+Buick,Century Custom 4dr,Sedan,"$22,180",Hydrogen,8,"$20,351",3.1,FA,6,175,20,30,3353,109,195,USA,Front
+Buick,Century Custom 4dr,Sedan,"$20,351",Hydrogen,8,"$22,180",3.1,FA,6,175,20,30,3353,109,195,USA,Front
+Honda,Civic DX 2dr,Sedan,"$13,270",Diesel,8,"$12,175",1.7,FA,4,115,32,38,2432,103,175,Asia,Front
+Honda,Civic DX 2dr,Sedan,"$12,175",Diesel,8,"$13,270",1.7,FA,4,115,32,38,2432,103,175,Asia,Front
+Honda,Civic EX 4dr,Sedan,"$17,750",Diesel,8,"$16,265",1.7,FA,4,127,32,37,2601,103,175,Asia,Front
+Honda,Civic EX 4dr,Sedan,"$16,265",Diesel,8,"$17,750",1.7,FA,4,127,32,37,2601,103,175,Asia,Front
+Honda,Civic HX 2dr,Sedan,"$14,170",Diesel,8,"$12,996",1.7,FA,4,117,36,44,2500,103,175,Asia,Front
+Honda,Civic HX 2dr,Sedan,"$12,996",Diesel,8,"$14,170",1.7,FA,4,117,36,44,2500,103,175,Asia,Front
+Honda,Civic Hybrid 4dr manual (gas/electric),Hybrid,"$20,140",Diesel,8,"$18,451",1.4,FA,4,93,46,51,2732,103,175,Asia,Front
+Honda,Civic Hybrid 4dr manual (gas/electric),Hybrid,"$18,451",Diesel,8,"$20,140",1.4,FA,4,93,46,51,2732,103,175,Asia,Front
+Honda,Civic LX 4dr,Sedan,"$15,850",Diesel,8,"$14,531",1.7,FA,4,115,32,38,2513,103,175,Asia,Front
+Honda,Civic LX 4dr,Sedan,"$14,531",Diesel,8,"$15,850",1.7,FA,4,115,32,38,2513,103,175,Asia,Front
+Honda,Civic Si 2dr hatch,Sedan,"$19,490",Diesel,8,"$17,849",2,FA,4,160,26,30,2782,101,166,Asia,Front
+Honda,Civic Si 2dr hatch,Sedan,"$17,849",Diesel,8,"$19,490",2,FA,4,160,26,30,2782,101,166,Asia,Front
+Mercedes-Benz,CL500 2dr,Sedan,"$94,820",Gasline,6,"$88,324",5,FA,8,302,16,24,4085,114,196,Europe,Rear
+Mercedes-Benz,CL500 2dr,Sedan,"$88,324",Gasline,6,"$94,820",5,FA,8,302,16,24,4085,114,196,Europe,Rear
+Mercedes-Benz,CL600 2dr,Sedan,"$128,420",Gasline,6,"$119,600",5.5,FA,12,493,13,19,4473,114,196,Europe,Rear
+Mercedes-Benz,CL600 2dr,Sedan,"$119,600",Gasline,6,"$128,420",5.5,FA,12,493,13,19,4473,114,196,Europe,Rear
+Mercedes-Benz,CLK320 coupe 2dr (convertible),Sedan,"$45,707",Gasline,6,"$41,966",3.2,FA,6,215,20,26,3770,107,183,Europe,Rear
+Mercedes-Benz,CLK320 coupe 2dr (convertible),Sedan,"$41,966",Gasline,6,"$45,707",3.2,FA,6,215,20,26,3770,107,183,Europe,Rear
+Mercedes-Benz,CLK500 coupe 2dr (convertible),Sedan,"$52,800",Gasline,6,"$49,104",5,FA,8,302,17,22,3585,107,183,Europe,Rear
+Mercedes-Benz,CLK500 coupe 2dr (convertible),Sedan,"$49,104",Gasline,6,"$52,800",5,FA,8,302,17,22,3585,107,183,Europe,Rear
+Chevrolet,Colorado Z85,Truck,"$18,760",Hydrogen,8,"$17,070",2.8,FA,4,175,18,23,3623,111,192,USA,All
+Chevrolet,Colorado Z85,Truck,"$17,070",Hydrogen,8,"$18,760",2.8,FA,4,175,18,23,3623,111,192,USA,All
+Chrysler,Concorde LX 4dr,Sedan,"$24,130",Hydrogen,8,"$22,452",2.7,FA,6,200,21,29,3479,113,208,USA,Front
+Chrysler,Concorde LX 4dr,Sedan,"$22,452",Hydrogen,8,"$24,130",2.7,FA,6,200,21,29,3479,113,208,USA,Front
+Chrysler,Concorde LXi 4dr,Sedan,"$26,860",Hydrogen,8,"$24,909",3.5,FA,6,232,19,27,3548,113,208,USA,Front
+Chrysler,Concorde LXi 4dr,Sedan,"$24,909",Electric,6,"$26,860",3.5,CA,6,232,19,27,3548,113,208,USA,Front
+MINI,Cooper,Sedan,"$16,999",Gasline,6,"$15,437",1.6,CA,4,115,28,37,2524,97,143,Europe,Front
+MINI,Cooper,Sedan,"$15,437",Gasline,6,"$16,999",1.6,CA,4,115,28,37,2524,97,143,Europe,Front
+MINI,Cooper S,Sedan,"$19,999",Gasline,6,"$18,137",1.6,CA,4,163,25,34,2678,97,144,Europe,Front
+MINI,Cooper S,Sedan,"$18,137",Gasline,6,"$19,999",1.6,CA,4,163,25,34,2678,97,144,Europe,Front
+Toyota,Corolla CE 4dr,Sedan,"$14,085",Diesel,8,"$13,065",1.8,FA,4,130,32,40,2502,102,178,Asia,Front
+Toyota,Corolla CE 4dr,Sedan,"$13,065",Diesel,8,"$14,085",1.8,FA,4,130,32,40,2502,102,178,Asia,Front
+Toyota,Corolla LE 4dr,Sedan,"$15,295",Diesel,8,"$13,889",1.8,FA,4,130,32,40,2524,102,178,Asia,Front
+Toyota,Corolla LE 4dr,Sedan,"$13,889",Diesel,8,"$15,295",1.8,FA,4,130,32,40,2524,102,178,Asia,Front
+Toyota,Corolla S 4dr,Sedan,"$15,030",Diesel,9,"$13,650",1.8,FA,4,130,32,40,2524,102,178,Asia,Front
+Toyota,Corolla S 4dr,Sedan,"$13,650",Diesel,9,"$15,030",1.8,FA,4,130,32,40,2524,102,178,Asia,Front
+Chevrolet,Corvette 2dr,Sports,"$44,535",Electric,6,"$39,068",5.7,CA,8,350,18,25,3246,105,180,USA,Rear
+Chevrolet,Corvette 2dr,Sports,"$39,068",Electric,6,"$44,535",5.7,CA,8,350,18,25,3246,105,180,USA,Rear
+Chevrolet,Corvette convertible 2dr,Sports,"$51,535",Electric,6,"$45,193",5.7,CA,8,350,18,25,3248,105,180,USA,Rear
+Chevrolet,Corvette convertible 2dr,Sports,"$45,193",Electric,6,"$51,535",5.7,CA,8,350,18,25,3248,105,180,USA,Rear
+Chrysler,Crossfire 2dr,Sports,"$34,495",Electric,6,"$32,033",3.2,CA,6,215,17,25,3060,95,160,USA,Rear
+Chrysler,Crossfire 2dr,Sports,"$32,033",Electric,6,"$34,495",3.2,CA,6,215,17,25,3060,95,160,USA,Rear
+Ford,Crown Victoria 4dr,Sedan,"$24,345",Electric,6,"$22,856",4.6,CA,8,224,17,25,4057,115,212,USA,Rear
+Ford,Crown Victoria 4dr,Sedan,"$22,856",Electric,6,"$24,345",4.6,CA,8,224,17,25,4057,115,212,USA,Rear
+Ford,Crown Victoria LX 4dr,Sedan,"$27,370",Electric,6,"$25,105",4.6,CA,8,224,17,25,4057,115,212,USA,Rear
+Ford,Crown Victoria LX 4dr,Sedan,"$25,105",Electric,6,"$27,370",4.6,CA,8,224,17,25,4057,115,212,USA,Rear
+Ford,Crown Victoria LX Sport 4dr,Sedan,"$30,315",Electric,6,"$27,756",4.6,CA,8,239,17,25,4057,115,212,USA,Rear
+Ford,Crown Victoria LX Sport 4dr,Sedan,"$27,756",Electric,6,"$30,315",4.6,CA,8,239,17,25,4057,115,212,USA,Rear
+Honda,CR-V LX,SUV,"$19,860",Diesel,9,"$18,419",2.4,FA,4,160,21,25,3258,103,179,Asia,All
+Honda,CR-V LX,SUV,"$18,419",Diesel,9,"$19,860",2.4,FA,4,160,21,25,3258,103,179,Asia,All
+Cadillac,CTS VVT 4dr,Sedan,"$30,835",Electric,6,"$28,575",3.6,CA,6,255,18,25,3694,113,190,USA,Rear
+Cadillac,CTS VVT 4dr,Sedan,"$28,575",Electric,6,"$30,835",3.6,CA,6,255,18,25,3694,113,190,USA,Rear
+Dodge,Dakota Club Cab,Truck,"$20,300",Electric,6,"$18,670",3.7,CA,6,210,16,22,3829,131,219,USA,Rear
+Dodge,Dakota Club Cab,Truck,"$18,670",Electric,6,"$20,300",3.7,CA,6,210,16,22,3829,131,219,USA,Rear
+Dodge,Dakota Regular Cab,Truck,"$17,630",Electric,6,"$16,264",3.7,CA,6,210,16,22,3714,112,193,USA,Rear
+Dodge,Dakota Regular Cab,Truck,"$16,264",Electric,6,"$17,630",3.7,CA,6,210,16,22,3714,112,193,USA,Rear
+Cadillac,Deville 4dr,Sedan,"$45,445",Electric,6,"$41,650",4.6,CA,8,275,18,26,3984,115,207,USA,Front
+Cadillac,Deville 4dr,Sedan,"$41,650",Electric,6,"$45,445",4.6,CA,8,275,18,26,3984,115,207,USA,Front
+Cadillac,Deville DTS 4dr,Sedan,"$50,595",Electric,6,"$46,362",4.6,CA,8,300,18,26,4044,115,207,USA,Front
+Cadillac,Deville DTS 4dr,Sedan,"$46,362",Electric,6,"$50,595",4.6,CA,8,300,18,26,4044,115,207,USA,Front
+Mitsubishi,Diamante LS 4dr,Sedan,"$29,282",Petrol,6,"$27,250",3.5,FA,6,205,18,25,3549,107,194,Asia,Front
+Mitsubishi,Diamante LS 4dr,Sedan,"$27,250",Petrol,6,"$29,282",3.5,CA,6,205,18,25,3549,107,194,Asia,Front
+Land Rover,Discovery SE,SUV,"$39,250",Gasline,6,"$35,777",4.6,CA,8,217,12,16,4576,100,185,Europe,All
+Land Rover,Discovery SE,SUV,"$35,777",Gasline,6,"$39,250",4.6,CA,8,217,12,16,4576,100,185,Europe,All
+Dodge,Durango SLT,SUV,"$32,235",Electric,6,"$29,472",4.7,CA,8,230,15,21,4987,119,201,USA,All
+Dodge,Durango SLT,SUV,"$29,472",Electric,6,"$32,235",4.7,CA,8,230,15,21,4987,119,201,USA,All
+Mercedes-Benz,E320,Wagon,"$50,670",Gasline,6,"$47,174",3.2,CA,6,221,19,27,3966,112,190,Europe,Rear
+Mercedes-Benz,E320,Wagon,"$47,174",Gasline,6,"$50,670",3.2,CA,6,221,19,27,3966,112,190,Europe,Rear
+Mercedes-Benz,E320 4dr,Sedan,"$48,170",Gasline,6,"$44,849",3.2,CA,6,221,19,27,3635,112,190,Europe,Rear
+Mercedes-Benz,E320 4dr,Sedan,"$44,849",Gasline,6,"$48,170",3.2,CA,6,221,19,27,3635,112,190,Europe,Rear
+Mercedes-Benz,E500,Wagon,"$60,670",Gasline,6,"$56,474",5,CA,8,302,16,24,4230,112,190,Europe,All
+Mercedes-Benz,E500,Wagon,"$56,474",Gasline,6,"$60,670",5,CA,8,302,16,24,4230,112,190,Europe,All
+Mercedes-Benz,E500 4dr,Sedan,"$57,270",Gasline,6,"$53,382",5,CA,8,302,16,20,3815,112,190,Europe,Rear
+Mercedes-Benz,E500 4dr,Sedan,"$53,382",Gasline,6,"$57,270",5,CA,8,302,16,20,3815,112,190,Europe,Rear
+Toyota,Echo 2dr auto,Sedan,"$11,560",Petrol,6,"$10,896",1.5,FA,4,108,33,39,2085,93,163,Asia,Front
+Toyota,Echo 2dr auto,Sedan,"$10,896",Petrol,6,"$11,560",1.5,CA,4,108,33,39,2085,93,163,Asia,Front
+Toyota,Echo 2dr manual,Sedan,"$10,760",Petrol,6,"$10,144",1.5,CA,4,108,35,43,2035,93,163,Asia,Front
+Toyota,Echo 2dr manual,Sedan,"$10,144",Petrol,6,"$10,760",1.5,CA,4,108,35,43,2035,93,163,Asia,Front
+Toyota,Echo 4dr,Sedan,"$11,290",Petrol,6,"$10,642",1.5,CA,4,108,35,43,2055,93,163,Asia,Front
+Toyota,Echo 4dr,Sedan,"$10,642",Petrol,6,"$11,290",1.5,CA,4,108,35,43,2055,93,163,Asia,Front
+Mitsubishi,Eclipse GTS 2dr,Sports,"$25,092",Petrol,6,"$23,456",3,CA,6,210,21,28,3241,101,177,Asia,Front
+Mitsubishi,Eclipse GTS 2dr,Sports,"$23,456",Petrol,6,"$25,092",3,CA,6,210,21,28,3241,101,177,Asia,Front
+Mitsubishi,Eclipse Spyder GT convertible 2dr,Sports,"$26,992",Petrol,6,"$25,218",3,CA,6,210,21,28,3296,101,177,Asia,Front
+Mitsubishi,Eclipse Spyder GT convertible 2dr,Sports,"$25,218",Petrol,6,"$26,992",3,CA,6,210,21,28,3296,101,177,Asia,Front
+Hyundai,Elantra GLS 4dr,Sedan,"$13,839",Petrol,6,"$12,781",2,CA,4,138,26,34,2635,103,178,Asia,Front
+Hyundai,Elantra GLS 4dr,Sedan,"$12,781",Petrol,6,"$13,839",2,CA,4,138,26,34,2635,103,178,Asia,Front
+Hyundai,Elantra GT 4dr,Sedan,"$15,389",Petrol,6,"$14,207",2,CA,4,138,26,34,2635,103,178,Asia,Front
+Hyundai,Elantra GT 4dr,Sedan,"$14,207",Petrol,6,"$15,389",2,CA,4,138,26,34,2635,103,178,Asia,Front
+Hyundai,Elantra GT 4dr hatch,Sedan,"$15,389",Petrol,6,"$14,207",2,FA,4,138,26,34,2698,103,178,Asia,Front
+Hyundai,Elantra GT 4dr hatch,Sedan,"$14,207",Petrol,6,"$15,389",2,CA,4,138,26,34,2698,103,178,Asia,Front
+Honda,Element LX,SUV,"$18,690",Petrol,6,"$17,334",2.4,CA,4,160,21,24,3468,101,167,Asia,All
+Honda,Element LX,SUV,"$17,334",Petrol,6,"$18,690",2.4,CA,4,160,21,24,3468,101,167,Asia,All
+Mitsubishi,Endeavor XLS,SUV,"$30,492",Petrol,6,"$28,330",3.8,CA,6,215,17,21,4134,109,190,Asia,All
+Mitsubishi,Endeavor XLS,SUV,"$28,330",Petrol,6,"$30,492",3.8,CA,6,215,17,21,4134,109,190,Asia,All
+GMC,Envoy XUV SLE,SUV,"$31,890",Electric,6,"$28,922",4.2,CA,6,275,15,19,4945,129,208,USA,Front
+GMC,Envoy XUV SLE,SUV,"$28,922",Electric,6,"$31,890",4.2,CA,6,275,15,19,4945,129,208,USA,Front
+Lexus,ES 330 4dr,Sedan,"$32,350",Petrol,6,"$28,755",3.3,CA,6,225,20,29,3460,107,191,Asia,Front
+Lexus,ES 330 4dr,Sedan,"$28,755",Petrol,6,"$32,350",3.3,CA,6,225,20,29,3460,107,191,Asia,Front
+Cadillac,Escalade,SUV,"$52,795",Electric,6,"$48,377",5.3,CA,8,295,14,18,5367,116,199,USA,Front
+Cadillac,Escalade,SUV,"$48,377",Electric,6,"$52,795",5.3,CA,8,295,14,18,5367,116,199,USA,Front
+Cadillac,Escalade EXT,Truck,"$52,975",Electric,6,"$48,541",6,CA,8,345,13,17,5879,130,221,USA,All
+Cadillac,Escalade EXT,Truck,"$48,541",Electric,6,"$52,975",6,CA,8,345,13,17,5879,130,221,USA,All
+Ford,Escape XLS,SUV,"$22,515",Electric,6,"$20,907",3,CA,6,201,18,23,3346,103,173,USA,All
+Ford,Escape XLS,SUV,"$20,907",Electric,6,"$22,515",3,CA,6,201,18,23,3346,103,173,USA,All
+Ford,Excursion 6.8 XLT,SUV,"$41,475",Electric,6,"$36,494",6.8,CA,10,310,10,13,7190,137,227,USA,All
+Ford,Excursion 6.8 XLT,SUV,"$36,494",Electric,6,"$41,475",6.8,CA,10,310,10,13,7190,137,227,USA,All
+Ford,Expedition 4.6 XLT,SUV,"$34,560",Electric,6,"$30,468",4.6,CA,8,232,15,19,5000,119,206,USA,Front
+Ford,Expedition 4.6 XLT,SUV,"$30,468",Electric,6,"$34,560",4.6,CA,8,232,15,19,5000,119,206,USA,Front
+Ford,Explorer XLT V6,SUV,"$29,670",Electric,6,"$26,983",4,CA,6,210,15,20,4463,114,190,USA,All
+Ford,Explorer XLT V6,SUV,"$26,983",Electric,6,"$29,670",4,CA,6,210,15,20,4463,114,190,USA,All
+Ford,F-150 Regular Cab XL,Truck,"$22,010",Electric,6,"$19,490",4.6,CA,8,231,15,19,4788,126,211,USA,Rear
+Ford,F-150 Regular Cab XL,Truck,"$19,490",Electric,6,"$22,010",4.6,CA,8,231,15,19,4788,126,211,USA,Rear
+Ford,F-150 Supercab Lariat,Truck,"$33,540",Electric,6,"$29,405",5.4,CA,8,300,14,18,5464,133,218,USA,All
+Ford,F-150 Supercab Lariat,Truck,"$29,405",Electric,6,"$33,540",5.4,CA,8,300,14,18,5464,133,218,USA,All
+Ford,Focus LX 4dr,Sedan,"$13,730",Electric,6,"$12,906",2,CA,4,110,27,36,2606,103,168,USA,Front
+Ford,Focus LX 4dr,Sedan,"$12,906",Electric,6,"$13,730",2,CA,4,110,27,36,2606,103,168,USA,Front
+Ford,Focus SE 4dr,Sedan,"$15,460",Electric,6,"$14,496",2,CA,4,130,26,33,2606,103,168,USA,Front
+Ford,Focus SE 4dr,Sedan,"$14,496",Electric,6,"$15,460",2,CA,4,130,26,33,2606,103,168,USA,Front
+Ford,Focus SVT 2dr,Sedan,"$19,135",Electric,6,"$17,878",2,CA,4,170,21,28,2750,103,168,USA,Front
+Ford,Focus SVT 2dr,Sedan,"$17,878",Electric,6,"$19,135",2,CA,4,170,21,28,2750,103,168,USA,Front
+Ford,Focus ZTW,Wagon,"$17,475",Electric,6,"$16,375",2,CA,4,130,26,33,2702,103,178,USA,Front
+Ford,Focus ZTW,Wagon,"$16,375",Electric,6,"$17,475",2,CA,4,130,26,33,2702,103,178,USA,Front
+Ford,Focus ZX3 2dr hatch,Sedan,"$13,270",Electric,6,"$12,482",2,CA,4,130,26,33,2612,103,168,USA,Front
+Ford,Focus ZX3 2dr hatch,Sedan,"$12,482",Electric,6,"$13,270",2,CA,4,130,26,33,2612,103,168,USA,Front
+Ford,Focus ZX5 5dr,Sedan,"$15,580",Electric,6,"$14,607",2,CA,4,130,26,33,2691,103,168,USA,Front
+Ford,Focus ZX5 5dr,Sedan,"$14,607",Electric,6,"$15,580",2,CA,4,130,26,33,2691,103,168,USA,Front
+Suzuki,Forenza EX 4dr,Sedan,"$15,568",Petrol,6,"$15,378",2,CA,4,119,22,30,2756,102,177,Asia,Front
+Suzuki,Forenza EX 4dr,Sedan,"$15,378",Petrol,6,"$15,568",2,CA,4,119,22,30,2756,102,177,Asia,Front
+Suzuki,Forenza S 4dr,Sedan,"$12,269",Petrol,6,"$12,116",2,CA,4,119,24,31,2701,102,177,Asia,Front
+Suzuki,Forenza S 4dr,Sedan,"$12,116",Petrol,6,"$12,269",2,CA,4,119,24,31,2701,102,177,Asia,Front
+Subaru,Forester X,Wagon,"$21,445",Petrol,6,"$19,646",2.5,CA,4,165,21,28,3090,99,175,Asia,All
+Subaru,Forester X,Wagon,"$19,646",Petrol,6,"$21,445",2.5,CA,4,165,21,28,3090,99,175,Asia,All
+Land Rover,Freelander SE,SUV,"$25,995",Gasline,6,"$23,969",2.5,CA,6,174,18,21,3577,101,175,Europe,All
+Land Rover,Freelander SE,SUV,"$23,969",Gasline,6,"$25,995",2.5,CA,6,174,18,21,3577,101,175,Europe,All
+Ford,Freestar SE,Sedan,"$26,930",Electric,6,"$24,498",3.9,CA,6,193,17,23,4275,121,201,USA,Front
+Ford,Freestar SE,Sedan,"$24,498",Electric,6,"$26,930",3.9,CA,6,193,17,23,4275,121,201,USA,Front
+Nissan,Frontier King Cab XE V6,Truck,"$19,479",Petrol,6,"$18,253",3.3,CA,6,180,17,20,3932,116,191,Asia,All
+Nissan,Frontier King Cab XE V6,Truck,"$18,253",Petrol,6,"$19,479",3.3,CA,6,180,17,20,3932,116,191,Asia,All
+Infiniti,FX35,Wagon,"$34,895",Petrol,6,"$31,756",3.5,CA,6,280,16,22,4056,112,189,Asia,Rear
+Infiniti,FX35,Wagon,"$31,756",Petrol,6,"$34,895",3.5,FA,6,280,16,22,4056,112,189,Asia,Rear
+Infiniti,FX45,Wagon,"$36,395",Petrol,6,"$33,121",4.5,FA,8,315,15,19,4309,112,189,Asia,All
+Infiniti,FX45,Wagon,"$33,121",Petrol,6,"$36,395",4.5,FA,8,315,15,19,4309,112,189,Asia,All
+Infiniti,G35 4dr,Sedan,"$28,495",Petrol,6,"$26,157",3.5,FA,6,260,18,26,3336,112,187,Asia,Rear
+Infiniti,G35 4dr,Sedan,"$32,445",Petrol,6,"$29,783",3.5,FA,6,260,18,26,3677,112,187,Asia,All
+Infiniti,G35 4dr,Sedan,"$26,157",Petrol,6,"$28,495",3.5,FA,6,260,18,26,3336,112,187,Asia,Rear
+Infiniti,G35 4dr,Sedan,"$29,783",Petrol,6,"$32,445",3.5,FA,6,260,18,26,3677,112,187,Asia,All
+Infiniti,G35 Sport Coupe 2dr,Sedan,"$29,795",Petrol,6,"$27,536",3.5,FA,6,280,18,26,3416,112,182,Asia,Rear
+Infiniti,G35 Sport Coupe 2dr,Sedan,"$27,536",Petrol,6,"$29,795",3.5,FA,6,280,18,26,3416,112,182,Asia,Rear
+Mercedes-Benz,G500,SUV,"$76,870",Gasline,6,"$71,540",5,CA,8,292,13,14,5423,112,186,Europe,All
+Mercedes-Benz,G500,SUV,"$71,540",Gasline,6,"$76,870",5,CA,8,292,13,14,5423,112,186,Europe,All
+Mitsubishi,Galant ES 2.4L 4dr,Sedan,"$19,312",Petrol,6,"$17,957",2.4,FA,4,160,23,30,3351,108,191,Asia,Front
+Mitsubishi,Galant ES 2.4L 4dr,Sedan,"$17,957",Petrol,6,"$19,312",2.4,FA,4,160,23,30,3351,108,191,Asia,Front
+Mitsubishi,Galant GTS 4dr,Sedan,"$25,700",Petrol,9,"$23,883",3.8,FA,6,230,18,26,3649,108,191,Asia,Front
+Mitsubishi,Galant GTS 4dr,Sedan,"$23,883",Petrol,9,"$25,700",3.8,FA,6,230,18,26,3649,108,191,Asia,Front
+Volkswagen,Golf GLS 4dr,Sedan,"$18,715",Gasline,6,"$17,478",2,CA,4,115,24,31,2897,99,165,Europe,Front
+Volkswagen,Golf GLS 4dr,Sedan,"$17,478",Gasline,6,"$18,715",2,CA,4,115,24,31,2897,99,165,Europe,Front
+Pontiac,Grand Am GT 2dr,Sedan,"$22,450",Electric,6,"$20,595",3.4,CA,6,175,20,29,3118,107,186,USA,Front
+Pontiac,Grand Am GT 2dr,Sedan,"$20,595",Electric,6,"$22,450",3.4,CA,6,175,20,29,3118,107,186,USA,Front
+Dodge,Grand Caravan SXT,Sedan,"$32,660",Electric,6,"$29,812",3.8,CA,6,215,18,25,4440,119,201,USA,All
+Dodge,Grand Caravan SXT,Sedan,"$29,812",Electric,6,"$32,660",3.8,CA,6,215,18,25,4440,119,201,USA,All
+Jeep,Grand Cherokee Laredo,SUV,"$27,905",Electric,6,"$25,686",4,CA,6,195,16,21,3790,106,181,USA,Front
+Jeep,Grand Cherokee Laredo,SUV,"$25,686",Electric,6,"$27,905",4,CA,6,195,16,21,3790,106,181,USA,Front
+Mercury,Grand Marquis GS 4dr,Sedan,"$24,695",Electric,6,"$23,217",4.6,CA,8,224,17,25,4052,115,212,USA,Rear
+Mercury,Grand Marquis GS 4dr,Sedan,"$23,217",Electric,6,"$24,695",4.6,CA,8,224,17,25,4052,115,212,USA,Rear
+Mercury,Grand Marquis LS Premium 4dr,Sedan,"$29,595",Electric,6,"$27,148",4.6,CA,8,224,17,25,4052,115,212,USA,Rear
+Mercury,Grand Marquis LS Premium 4dr,Sedan,"$27,148",Electric,6,"$29,595",4.6,CA,8,224,17,25,4052,115,212,USA,Rear
+Mercury,Grand Marquis LS Ultimate 4dr,Sedan,"$30,895",Electric,6,"$28,318",4.6,CA,8,224,17,25,4052,115,212,USA,Rear
+Mercury,Grand Marquis LS Ultimate 4dr,Sedan,"$28,318",Electric,6,"$30,895",4.6,CA,8,224,17,25,4052,115,212,USA,Rear
+Pontiac,Grand Prix GT1 4dr,Sedan,"$22,395",Electric,6,"$20,545",3.8,CA,6,200,20,30,3477,111,198,USA,Front
+Pontiac,Grand Prix GT1 4dr,Sedan,"$20,545",Electric,6,"$22,395",3.8,CA,6,200,20,30,3477,111,198,USA,Front
+Pontiac,Grand Prix GT2 4dr,Sedan,"$24,295",Electric,6,"$22,284",3.8,CA,6,200,20,30,3484,111,198,USA,Front
+Pontiac,Grand Prix GT2 4dr,Sedan,"$22,284",Electric,6,"$24,295",3.8,CA,6,200,20,30,3484,111,198,USA,Front
+Lexus,GS 300 4dr,Sedan,"$41,010",Petrol,9,"$36,196",3,FA,6,220,18,25,3649,110,189,Asia,Rear
+Lexus,GS 300 4dr,Sedan,"$36,196",Petrol,9,"$41,010",3,FA,6,220,18,25,3649,110,189,Asia,Rear
+Lexus,GS 430 4dr,Sedan,"$48,450",Petrol,9,"$42,232",4.3,FA,8,300,18,23,3715,110,189,Asia,Rear
+Lexus,GS 430 4dr,Sedan,"$42,232",Petrol,9,"$48,450",4.3,FA,8,300,18,23,3715,110,189,Asia,Rear
+Volkswagen,GTI 1.8T 2dr hatch,Sedan,"$19,825",Gasline,6,"$18,109",1.8,CA,4,180,24,31,2934,99,168,Europe,Front
+Volkswagen,GTI 1.8T 2dr hatch,Sedan,"$18,109",Gasline,6,"$19,825",1.8,CA,4,180,24,31,2934,99,168,Europe,Front
+Pontiac,GTO 2dr,Sports,"$33,500",Electric,6,"$30,710",5.7,CA,8,340,16,20,3725,110,190,USA,Rear
+Pontiac,GTO 2dr,Sports,"$30,710",Electric,6,"$33,500",5.7,CA,8,340,16,20,3725,110,190,USA,Rear
+Lexus,GX 470,SUV,"$45,700",Petrol,9,"$39,838",4.7,FA,8,235,15,19,4740,110,188,Asia,All
+Lexus,GX 470,SUV,"$39,838",Petrol,9,"$45,700",4.7,FA,8,235,15,19,4740,110,188,Asia,All
+Hummer,H2,SUV,"$49,995",Electric,6,"$45,815",6,CA,8,316,10,12,6400,123,190,USA,All
+Hummer,H2,SUV,"$45,815",Electric,6,"$49,995",6,CA,8,316,10,12,6400,123,190,USA,All
+Toyota,Highlander V6,SUV,"$27,930",Petrol,9,"$24,915",3.3,FA,6,230,18,24,3935,107,185,Asia,All
+Toyota,Highlander V6,SUV,"$24,915",Petrol,9,"$27,930",3.3,FA,6,230,18,24,3935,107,185,Asia,All
+Infiniti,I35 4dr,Sedan,"$31,145",Petrol,9,"$28,320",3.5,FA,6,255,19,26,3306,108,194,Asia,Front
+Infiniti,I35 4dr,Sedan,"$28,320",Petrol,9,"$31,145",3.5,FA,6,255,19,26,3306,108,194,Asia,Front
+Chevrolet,Impala 4dr,Sedan,"$21,900",Electric,6,"$20,095",3.4,CA,6,180,21,32,3465,111,200,USA,Front
+Chevrolet,Impala 4dr,Sedan,"$20,095",Electric,6,"$21,900",3.4,CA,6,180,21,32,3465,111,200,USA,Front
+Chevrolet,Impala LS 4dr,Sedan,"$25,000",Electric,6,"$22,931",3.8,CA,6,200,20,30,3476,111,200,USA,Front
+Chevrolet,Impala LS 4dr,Sedan,"$22,931",Electric,6,"$25,000",3.8,CA,6,200,20,30,3476,111,200,USA,Front
+Chevrolet,Impala SS 4dr,Sedan,"$27,995",Electric,6,"$25,672",3.8,CA,6,240,18,28,3606,111,200,USA,Front
+Chevrolet,Impala SS 4dr,Sedan,"$25,672",Electric,6,"$27,995",3.8,CA,6,240,18,28,3606,111,200,USA,Front
+Subaru,Impreza 2.5 RS 4dr,Sedan,"$19,945",Petrol,9,"$18,399",2.5,FA,4,165,22,28,2965,99,174,Asia,All
+Subaru,Impreza 2.5 RS 4dr,Sedan,"$18,399",Petrol,9,"$19,945",2.5,FA,4,165,22,28,2965,99,174,Asia,All
+Subaru,Impreza WRX 4dr,Sports,"$25,045",Petrol,9,"$23,022",2,FA,4,227,20,27,3085,99,174,Asia,All
+Subaru,Impreza WRX 4dr,Sports,"$23,022",Petrol,9,"$25,045",2,FA,4,227,20,27,3085,99,174,Asia,All
+Subaru,Impreza WRX STi 4dr,Sports,"$31,545",Petrol,9,"$29,130",2.5,FA,4,300,18,24,3263,100,174,Asia,All
+Subaru,Impreza WRX STi 4dr,Sports,"$29,130",Petrol,9,"$31,545",2.5,FA,4,300,18,24,3263,100,174,Asia,All
+Honda,Insight 2dr (gas/electric),Hybrid,"$19,110",Petrol,9,"$17,911",2,FA,3,73,60,66,1850,95,155,Asia,Front
+Honda,Insight 2dr (gas/electric),Hybrid,"$17,911",Petrol,9,"$19,110",2,FA,3,73,60,66,1850,95,155,Asia,Front
+Dodge,Intrepid ES 4dr,Sedan,"$24,885",Electric,6,"$23,058",3.5,CA,6,232,18,27,3487,113,204,USA,Front
+Dodge,Intrepid ES 4dr,Sedan,"$23,058",Electric,6,"$24,885",3.5,CA,6,232,18,27,3487,113,204,USA,Front
+Dodge,Intrepid SE 4dr,Sedan,"$22,035",Electric,6,"$20,502",2.7,CA,6,200,21,29,3469,113,204,USA,Front
+Dodge,Intrepid SE 4dr,Sedan,"$20,502",Electric,6,"$22,035",2.7,CA,6,200,21,29,3469,113,204,USA,Front
+Saturn,Ion1 4dr,Sedan,"$10,995",Electric,6,"$10,319",2.2,CA,4,140,26,35,2692,103,185,USA,Front
+Saturn,Ion1 4dr,Sedan,"$10,319",Electric,6,"$10,995",2.2,CA,4,140,26,35,2692,103,185,USA,Front
+Lexus,IS 300 4dr auto,Sedan,"$32,415",Petrol,9,"$28,611",3,FA,6,215,18,24,3285,105,177,Asia,Rear
+Lexus,IS 300 4dr auto,Sedan,"$28,611",Petrol,9,"$32,415",3,FA,6,215,18,24,3285,105,177,Asia,Rear
+Lexus,IS 300 4dr manual,Sedan,"$31,045",Petrol,9,"$27,404",3,FA,6,215,18,25,3255,105,177,Asia,Rear
+Lexus,IS 300 4dr manual,Sedan,"$27,404",Petrol,9,"$31,045",3,FA,6,215,18,25,3255,105,177,Asia,Rear
+Lexus,IS 300 SportCross,Wagon,"$32,455",Petrol,9,"$28,647",3,FA,6,215,18,24,3410,105,177,Asia,Rear
+Lexus,IS 300 SportCross,Wagon,"$28,647",Petrol,9,"$32,455",3,FA,6,215,18,24,3410,105,177,Asia,Rear
+Volkswagen,Jetta GL,Wagon,"$19,005",Gasline,6,"$17,427",2,CA,4,115,24,30,3034,99,174,Europe,Front
+Volkswagen,Jetta GL,Wagon,"$17,427",Gasline,6,"$19,005",2,CA,4,115,24,30,3034,99,174,Europe,Front
+Volkswagen,Jetta GLI VR6 4dr,Sedan,"$23,785",Gasline,6,"$21,686",2.8,CA,6,200,21,30,3179,99,172,Europe,Front
+Volkswagen,Jetta GLI VR6 4dr,Sedan,"$21,686",Gasline,6,"$23,785",2.8,CA,6,200,21,30,3179,99,172,Europe,Front
+Volkswagen,Jetta GLS TDI 4dr,Sedan,"$21,055",Gasline,6,"$19,638",1.9,CA,4,100,38,46,3003,99,172,Europe,Front
+Volkswagen,Jetta GLS TDI 4dr,Sedan,"$19,638",Gasline,6,"$21,055",1.9,CA,4,100,38,46,3003,99,172,Europe,Front
+Saturn,L300 2,Wagon,"$23,560",Electric,6,"$21,779",2.2,CA,4,140,24,34,3109,107,190,USA,Front
+Saturn,L300 2,Wagon,"$21,779",Electric,6,"$23,560",2.2,CA,4,140,24,34,3109,107,190,USA,Front
+Saturn,L300-2 4dr,Sedan,"$21,410",Electric,6,"$19,801",3,CA,6,182,20,28,3197,107,190,USA,Front
+Saturn,L300-2 4dr,Sedan,"$19,801",Electric,6,"$21,410",3,CA,6,182,20,28,3197,107,190,USA,Front
+Mitsubishi,Lancer ES 4dr,Sedan,"$14,622",Petrol,9,"$13,751",2,FA,4,120,25,31,2656,102,181,Asia,Front
+Mitsubishi,Lancer ES 4dr,Sedan,"$13,751",Petrol,9,"$14,622",2,FA,4,120,25,31,2656,102,181,Asia,Front
+Mitsubishi,Lancer Evolution 4dr,Sports,"$29,562",Petrol,9,"$27,466",2,FA,4,271,18,26,3263,103,179,Asia,Front
+Mitsubishi,Lancer Evolution 4dr,Sports,"$27,466",Petrol,9,"$29,562",2,FA,4,271,18,26,3263,103,179,Asia,Front
+Mitsubishi,Lancer LS 4dr,Sedan,"$16,722",Petrol,9,"$15,718",2,CA,4,120,25,31,2795,102,181,Asia,Front
+Mitsubishi,Lancer LS 4dr,Sedan,"$15,718",Petrol,9,"$16,722",2,CA,4,120,25,31,2795,102,181,Asia,Front
+Mitsubishi,Lancer OZ Rally 4dr auto,Sedan,"$17,232",Petrol,9,"$16,196",2,CA,4,120,25,31,2744,102,181,Asia,Front
+Mitsubishi,Lancer OZ Rally 4dr auto,Sedan,"$16,196",Petrol,9,"$17,232",2,CA,4,120,25,31,2744,102,181,Asia,Front
+Mitsubishi,Lancer Sportback LS,Wagon,"$17,495",Petrol,9,"$16,295",2.4,CA,4,160,25,31,3020,102,181,Asia,Front
+Mitsubishi,Lancer Sportback LS,Wagon,"$16,295",Petrol,9,"$17,495",2.4,CA,4,160,25,31,3020,102,181,Asia,Front
+Toyota,Land Cruiser,SUV,"$54,765",Petrol,9,"$47,986",4.7,CA,8,325,13,17,5390,112,193,Asia,All
+Toyota,Land Cruiser,SUV,"$47,986",Petrol,9,"$54,765",4.7,CA,8,325,13,17,5390,112,193,Asia,All
+Subaru,Legacy GT 4dr,Sedan,"$25,645",Petrol,9,"$23,336",2.5,CA,4,165,21,28,3395,104,184,Asia,All
+Subaru,Legacy GT 4dr,Sedan,"$23,336",Petrol,9,"$25,645",2.5,CA,4,165,21,28,3395,104,184,Asia,All
+Subaru,Legacy L 4dr,Sedan,"$20,445",Petrol,9,"$18,713",2.5,FA,4,165,21,28,3285,104,184,Asia,All
+Subaru,Legacy L 4dr,Sedan,"$18,713",Petrol,9,"$20,445",2.5,FA,4,165,21,28,3285,104,184,Asia,All
+Buick,LeSabre Custom 4dr,Sedan,"$26,470",Electric,6,"$24,282",3.8,CA,6,205,20,29,3567,112,200,USA,Front
+Buick,LeSabre Custom 4dr,Sedan,"$24,282",Electric,6,"$26,470",3.8,CA,6,205,20,29,3567,112,200,USA,Front
+Buick,LeSabre Limited 4dr,Sedan,"$32,245",Electric,6,"$29,566",3.8,CA,6,205,20,29,3591,112,200,USA,Front
+Buick,LeSabre Limited 4dr,Sedan,"$29,566",Electric,6,"$32,245",3.8,CA,6,205,20,29,3591,112,200,USA,Front
+Jeep,Liberty Sport,SUV,"$20,130",Electric,6,"$18,973",2.4,CA,4,150,20,24,3826,104,174,USA,All
+Jeep,Liberty Sport,SUV,"$18,973",Electric,6,"$20,130",2.4,CA,4,150,20,24,3826,104,174,USA,All
+Saturn,lon2 4dr,Sedan,"$14,300",Electric,6,"$13,393",2.2,CA,4,140,26,35,2692,103,185,USA,Front
+Saturn,lon2 4dr,Sedan,"$13,393",Electric,6,"$14,300",2.2,CA,4,140,26,35,2692,103,185,USA,Front
+Saturn,lon2 quad coupe 2dr,Sedan,"$14,850",Electric,6,"$13,904",2.2,CA,4,140,26,35,2751,103,185,USA,Front
+Saturn,lon2 quad coupe 2dr,Sedan,"$13,904",Electric,6,"$14,850",2.2,CA,4,140,26,35,2751,103,185,USA,Front
+Saturn,lon3 4dr,Sedan,"$15,825",Electric,6,"$14,811",2.2,CA,4,140,26,35,2692,103,185,USA,Front
+Saturn,lon3 4dr,Sedan,"$14,811",Electric,6,"$15,825",2.2,CA,4,140,26,35,2692,103,185,USA,Front
+Saturn,lon3 quad coupe 2dr,Sedan,"$16,350",Electric,6,"$15,299",2.2,CA,4,140,26,35,2751,103,185,USA,Front
+Saturn,lon3 quad coupe 2dr,Sedan,"$15,299",Electric,6,"$16,350",2.2,CA,4,140,26,35,2751,103,185,USA,Front
+Lexus,LS 430 4dr,Sedan,"$55,750",Petrol,9,"$48,583",4.3,CA,8,290,18,25,3990,115,197,Asia,Rear
+Lexus,LS 430 4dr,Sedan,"$48,583",Petrol,9,"$55,750",4.3,CA,8,290,18,25,3990,115,197,Asia,Rear
+Lincoln,LS V6 Luxury 4dr,Sedan,"$32,495",Electric,6,"$29,969",3,CA,6,232,20,26,3681,115,194,USA,Rear
+Lincoln,LS V6 Luxury 4dr,Sedan,"$29,969",Electric,6,"$32,495",3,CA,6,232,20,26,3681,115,194,USA,Rear
+Lincoln,LS V6 Premium 4dr,Sedan,"$36,895",Electric,6,"$33,929",3,CA,6,232,20,26,3681,115,194,USA,Rear
+Lincoln,LS V6 Premium 4dr,Sedan,"$33,929",Electric,6,"$36,895",3,CA,6,232,20,26,3681,115,194,USA,Rear
+Lincoln,LS V8 Sport 4dr,Sedan,"$40,095",Electric,6,"$36,809",3.9,CA,8,280,17,24,3768,115,194,USA,Rear
+Lincoln,LS V8 Sport 4dr,Sedan,"$36,809",Electric,6,"$40,095",3.9,CA,8,280,17,24,3768,115,194,USA,Rear
+Lincoln,LS V8 Ultimate 4dr,Sedan,"$43,495",Electric,6,"$39,869",3.9,CA,8,280,17,24,3768,115,194,USA,Rear
+Lincoln,LS V8 Ultimate 4dr,Sedan,"$39,869",Electric,6,"$43,495",3.9,CA,8,280,17,24,3768,115,194,USA,Rear
+Lexus,LX 470,SUV,"$64,800",Petrol,9,"$56,455",4.7,CA,8,235,13,17,5590,112,193,Asia,All
+Lexus,LX 470,SUV,"$56,455",Petrol,9,"$64,800",4.7,CA,8,235,13,17,5590,112,193,Asia,All
+BMW,M3 convertible 2dr,Sports,"$56,595",Gasline,6,"$51,815",3.2,CA,6,333,16,23,3781,108,177,Europe,Rear
+BMW,M3 convertible 2dr,Sports,"$51,815",Gasline,6,"$56,595",3.2,CA,6,333,16,23,3781,108,177,Europe,Rear
+BMW,M3 coupe 2dr,Sports,"$48,195",Gasline,6,"$44,170",3.2,CA,6,333,16,24,3415,108,177,Europe,Rear
+BMW,M3 coupe 2dr,Sports,"$44,170",Gasline,6,"$48,195",3.2,CA,6,333,16,24,3415,108,177,Europe,Rear
+Infiniti,M45 4dr,Sedan,"$42,845",Petrol,9,"$38,792",4.5,CA,8,340,17,23,3851,110,197,Asia,Rear
+Infiniti,M45 4dr,Sedan,"$38,792",Petrol,9,"$42,845",4.5,CA,8,340,17,23,3851,110,197,Asia,Rear
+Chevrolet,Malibu 4dr,Sedan,"$18,995",Electric,6,"$17,434",2.2,CA,4,145,24,34,3174,106,188,USA,Front
+Chevrolet,Malibu 4dr,Sedan,"$17,434",Electric,6,"$18,995",2.2,CA,4,145,24,34,3174,106,188,USA,Front
+Chevrolet,Malibu LS 4dr,Sedan,"$20,370",Electric,6,"$18,639",3.5,CA,6,200,22,30,3297,106,188,USA,Front
+Chevrolet,Malibu LS 4dr,Sedan,"$18,639",Electric,6,"$20,370",3.5,CA,6,200,22,30,3297,106,188,USA,Front
+Chevrolet,Malibu LT 4dr,Sedan,"$23,495",Electric,6,"$21,551",3.5,CA,6,200,23,32,3315,106,188,USA,Front
+Chevrolet,Malibu LT 4dr,Sedan,"$21,551",Electric,6,"$23,495",3.5,CA,6,200,23,32,3315,106,188,USA,Front
+Chevrolet,Malibu Maxx LS,Wagon,"$22,225",Electric,6,"$20,394",3.5,CA,6,200,22,30,3458,112,188,USA,Front
+Chevrolet,Malibu Maxx LS,Wagon,"$20,394",Electric,6,"$22,225",3.5,CA,6,200,22,30,3458,112,188,USA,Front
+Mercury,Marauder 4dr,Sedan,"$34,495",Electric,6,"$31,558",4.6,CA,8,302,17,23,4195,115,212,USA,Rear
+Mercury,Marauder 4dr,Sedan,"$31,558",Electric,6,"$34,495",4.6,CA,8,302,17,23,4195,115,212,USA,Rear
+Toyota,Matrix XR,Wagon,"$16,695",Petrol,9,"$15,156",1.8,CA,4,130,29,36,2679,102,171,Asia,Front
+Toyota,Matrix XR,Wagon,"$15,156",Petrol,9,"$16,695",1.8,CA,4,130,29,36,2679,102,171,Asia,Front
+Nissan,Maxima SE 4dr,Sedan,"$27,490",Petrol,9,"$25,182",3.5,CA,6,265,20,28,3473,111,194,Asia,Front
+Nissan,Maxima SE 4dr,Sedan,"$25,182",Petrol,9,"$27,490",3.5,CA,6,265,20,28,3473,111,194,Asia,Front
+Nissan,Maxima SL 4dr,Sedan,"$29,440",Petrol,9,"$26,966",3.5,CA,6,265,20,28,3476,111,194,Asia,Front
+Nissan,Maxima SL 4dr,Sedan,"$26,966",Petrol,9,"$29,440",3.5,CA,6,265,20,28,3476,111,194,Asia,Front
+Mazda,Mazda3 i 4dr,Sedan,"$15,500",Petrol,9,"$14,525",2,CA,4,148,26,34,2696,104,178,Asia,Front
+Mazda,Mazda3 i 4dr,Sedan,"$14,525",Petrol,9,"$15,500",2,CA,4,148,26,34,2696,104,178,Asia,Front
+Mazda,Mazda3 s 4dr,Sedan,"$17,200",Petrol,9,"$15,922",2.3,CA,4,160,25,31,2762,104,179,Asia,Front
+Mazda,Mazda3 s 4dr,Sedan,"$15,922",Petrol,9,"$17,200",2.3,CA,4,160,25,31,2762,104,179,Asia,Front
+Mazda,Mazda6 i 4dr,Sedan,"$19,270",Petrol,9,"$17,817",2.3,CA,4,160,24,32,3042,105,187,Asia,Front
+Mazda,Mazda6 i 4dr,Sedan,"$17,817",Petrol,9,"$19,270",2.3,CA,4,160,24,32,3042,105,187,Asia,Front
+Acura,MDX,SUV,"$36,945",Petrol,9,"$33,337",3.5,CA,6,265,17,23,4451,106,189,Asia,All
+Acura,MDX,SUV,"$33,337",Petrol,9,"$36,945",3.5,CA,6,265,17,23,4451,106,189,Asia,All
+Mercedes-Benz,ML500,SUV,"$46,470",Gasline,6,"$43,268",5,CA,8,288,14,17,4874,111,183,Europe,All
+Mercedes-Benz,ML500,SUV,"$43,268",Gasline,6,"$46,470",5,CA,8,288,14,17,4874,111,183,Europe,All
+Pontiac,Montana,Sedan,"$23,845",Electric,6,"$21,644",3.4,CA,6,185,19,26,3803,112,187,USA,Front
+Pontiac,Montana,Sedan,"$21,644",Electric,6,"$23,845",3.4,CA,6,185,19,26,3803,112,187,USA,Front
+Pontiac,Montana EWB,Sedan,"$31,370",Electric,6,"$28,454",3.4,CA,6,185,18,24,4431,121,201,USA,All
+Pontiac,Montana EWB,Sedan,"$28,454",Electric,6,"$31,370",3.4,CA,6,185,18,24,4431,121,201,USA,All
+Chevrolet,Monte Carlo LS 2dr,Sedan,"$21,825",Electric,6,"$20,026",3.4,CA,6,180,21,32,3340,111,198,USA,Front
+Chevrolet,Monte Carlo LS 2dr,Sedan,"$20,026",Electric,6,"$21,825",3.4,CA,6,180,21,32,3340,111,198,USA,Front
+Chevrolet,Monte Carlo SS 2dr,Sedan,"$24,225",Electric,6,"$22,222",3.8,CA,6,200,18,28,3434,111,198,USA,Front
+Chevrolet,Monte Carlo SS 2dr,Sedan,"$22,222",Electric,6,"$24,225",3.8,CA,6,200,18,28,3434,111,198,USA,Front
+Mercury,Monterey Luxury,Sedan,"$33,995",Electric,6,"$30,846",4.2,CA,6,201,16,23,4340,121,202,USA,Front
+Mercury,Monterey Luxury,Sedan,"$30,846",Electric,6,"$33,995",4.2,CA,6,201,16,23,4340,121,202,USA,Front
+Mitsubishi,Montero XLS,SUV,"$33,112",Petrol,9,"$30,763",3.8,CA,6,215,15,19,4718,110,190,Asia,All
+Mitsubishi,Montero XLS,SUV,"$30,763",Petrol,9,"$33,112",3.8,CA,6,215,15,19,4718,110,190,Asia,All
+Mercury,Mountaineer,SUV,"$29,995",Electric,6,"$27,317",4,CA,6,210,16,21,4374,114,190,USA,Front
+Mercury,Mountaineer,SUV,"$27,317",Electric,6,"$29,995",4,CA,6,210,16,21,4374,114,190,USA,Front
+Mazda,MPV ES,Sedan,"$28,750",Petrol,9,"$26,600",3,CA,6,200,18,25,3812,112,188,Asia,Front
+Mazda,MPV ES,Sedan,"$26,600",Petrol,9,"$28,750",3,CA,6,200,18,25,3812,112,188,Asia,Front
+Toyota,MR2 Spyder convertible 2dr,Sports,"$25,130",Petrol,9,"$22,787",1.8,CA,4,138,26,32,2195,97,153,Asia,Rear
+Toyota,MR2 Spyder convertible 2dr,Sports,"$22,787",Petrol,9,"$25,130",1.8,CA,4,138,26,32,2195,97,153,Asia,Rear
+Nissan,Murano SL,Wagon,"$28,739",Petrol,9,"$27,300",3.5,CA,6,245,20,25,3801,111,188,Asia,Rear
+Nissan,Murano SL,Wagon,"$27,300",Petrol,9,"$28,739",3.5,CA,6,245,20,25,3801,111,188,Asia,Rear
+Ford,Mustang 2dr (convertible),Sports,"$18,345",Electric,6,"$16,943",3.8,CA,6,193,20,29,3290,101,183,USA,Rear
+Ford,Mustang 2dr (convertible),Sports,"$16,943",Electric,6,"$18,345",3.8,CA,6,193,20,29,3290,101,183,USA,Rear
+Ford,Mustang GT Premium convertible 2dr,Sports,"$29,380",Electric,6,"$26,875",4.6,CA,8,260,17,25,3347,101,183,USA,Rear
+Ford,Mustang GT Premium convertible 2dr,Sports,"$26,875",Electric,6,"$29,380",4.6,CA,8,260,17,25,3347,101,183,USA,Rear
+Mazda,MX-5 Miata convertible 2dr,Sports,"$22,388",Petrol,9,"$20,701",1.8,CA,4,142,23,28,2387,89,156,Asia,Rear
+Mazda,MX-5 Miata convertible 2dr,Sports,"$20,701",Petrol,9,"$22,388",1.8,CA,4,142,23,28,2387,89,156,Asia,Rear
+Mazda,MX-5 Miata LS convertible 2dr,Sports,"$25,193",Petrol,9,"$23,285",1.8,CA,4,142,23,28,2387,89,156,Asia,Rear
+Mazda,MX-5 Miata LS convertible 2dr,Sports,"$23,285",Petrol,9,"$25,193",1.8,CA,4,142,23,28,2387,89,156,Asia,Rear
+Lincoln,Navigator Luxury,SUV,"$52,775",Electric,6,"$46,360",5.4,CA,8,300,13,18,5969,119,206,USA,All
+Lincoln,Navigator Luxury,SUV,"$46,360",Electric,6,"$52,775",5.4,CA,8,300,13,18,5969,119,206,USA,All
+Dodge,Neon SE 4dr,Sedan,"$13,670",Electric,6,"$12,849",2,CA,4,132,29,36,2581,105,174,USA,Front
+Dodge,Neon SE 4dr,Sedan,"$12,849",Electric,6,"$13,670",2,CA,4,132,29,36,2581,105,174,USA,Front
+Dodge,Neon SXT 4dr,Sedan,"$15,040",Electric,6,"$14,086",2,CA,4,132,29,36,2626,105,174,USA,Front
+Dodge,Neon SXT 4dr,Sedan,"$14,086",Electric,6,"$15,040",2,CA,4,132,29,36,2626,105,174,USA,Front
+Volkswagen,New Beetle GLS 1.8T 2dr,Sedan,"$21,055",Gasline,6,"$19,638",1.8,CA,4,150,24,31,2820,99,161,Europe,Front
+Volkswagen,New Beetle GLS 1.8T 2dr,Sedan,"$19,638",Gasline,6,"$21,055",1.8,CA,4,150,24,31,2820,99,161,Europe,Front
+Volkswagen,New Beetle GLS convertible 2dr,Sedan,"$23,215",Gasline,6,"$21,689",2,CA,4,115,24,30,3082,99,161,Europe,Front
+Volkswagen,New Beetle GLS convertible 2dr,Sedan,"$21,689",Gasline,6,"$23,215",2,CA,4,115,24,30,3082,99,161,Europe,Front
+Acura,NSX coupe 2dr manual S,Sports,"$89,765",Petrol,9,"$79,978",3.2,CA,6,290,17,24,3153,100,174,Asia,Rear
+Acura,NSX coupe 2dr manual S,Sports,"$79,978",Petrol,9,"$89,765",3.2,CA,6,290,17,24,3153,100,174,Asia,Rear
+Honda,Odyssey EX,Sedan,"$27,450",Petrol,9,"$24,744",3.5,CA,6,240,18,25,4365,118,201,Asia,Front
+Honda,Odyssey EX,Sedan,"$24,744",Petrol,9,"$27,450",3.5,CA,6,240,18,25,4365,118,201,Asia,Front
+Honda,Odyssey LX,Sedan,"$24,950",Petrol,9,"$22,498",3.5,CA,6,240,18,25,4310,118,201,Asia,Front
+Honda,Odyssey LX,Sedan,"$22,498",Petrol,9,"$24,950",3.5,CA,6,240,18,25,4310,118,201,Asia,Front
+Kia,Optima LX 4dr,Sedan,"$16,040",Petrol,9,"$14,910",2.4,CA,4,138,23,30,3281,106,186,Asia,Front
+Kia,Optima LX 4dr,Sedan,"$14,910",Petrol,9,"$16,040",2.4,CA,4,138,23,30,3281,106,186,Asia,Front
+Kia,Optima LX V6 4dr,Sedan,"$18,435",Petrol,9,"$16,850",2.7,CA,6,170,20,27,3279,106,186,Asia,Front
+Kia,Optima LX V6 4dr,Sedan,"$16,850",Petrol,9,"$18,435",2.7,CA,6,170,20,27,3279,106,186,Asia,Front
+Subaru,Outback,Wagon,"$23,895",Petrol,9,"$21,773",2.5,CA,4,165,21,28,3430,104,187,Asia,All
+Subaru,Outback,Wagon,"$21,773",Petrol,9,"$23,895",2.5,CA,4,165,21,28,3430,104,187,Asia,All
+Subaru,Outback H6 4dr,Sedan,"$29,345",Petrol,9,"$26,660",3,CA,6,212,19,26,3610,104,184,Asia,All
+Subaru,Outback H6 4dr,Sedan,"$26,660",Petrol,9,"$29,345",3,CA,6,212,19,26,3610,104,184,Asia,All
+Subaru,Outback H-6 VDC 4dr,Sedan,"$31,545",Petrol,9,"$28,603",3,CA,6,212,19,26,3630,104,184,Asia,All
+Subaru,Outback H-6 VDC 4dr,Sedan,"$28,603",Petrol,9,"$31,545",3,CA,6,212,19,26,3630,104,184,Asia,All
+Subaru,Outback Limited Sedan 4dr,Sedan,"$27,145",Petrol,9,"$24,687",2.5,CA,4,165,20,27,3495,104,184,Asia,All
+Subaru,Outback Limited Sedan 4dr,Sedan,"$24,687",Petrol,9,"$27,145",2.5,CA,4,165,20,27,3495,104,184,Asia,All
+Mitsubishi,Outlander LS,SUV,"$18,892",Petrol,9,"$17,569",2.4,CA,4,160,21,27,3240,103,179,Asia,Front
+Mitsubishi,Outlander LS,SUV,"$17,569",Petrol,9,"$18,892",2.4,CA,4,160,21,27,3240,103,179,Asia,Front
+Chrysler,Pacifica,Wagon,"$31,230",Electric,6,"$28,725",3.5,CA,6,250,17,23,4675,116,199,USA,Rear
+Chrysler,Pacifica,Wagon,"$28,725",Electric,6,"$31,230",3.5,CA,6,250,17,23,4675,116,199,USA,Rear
+Buick,Park Avenue 4dr,Sedan,"$35,545",Electric,6,"$32,244",3.8,CA,6,205,20,29,3778,114,207,USA,Front
+Buick,Park Avenue 4dr,Sedan,"$32,244",Electric,6,"$35,545",3.8,CA,6,205,20,29,3778,114,207,USA,Front
+Buick,Park Avenue Ultra 4dr,Sedan,"$40,720",Electric,6,"$36,927",3.8,CA,6,240,18,28,3909,114,207,USA,Front
+Buick,Park Avenue Ultra 4dr,Sedan,"$36,927",Electric,6,"$40,720",3.8,CA,6,240,18,28,3909,114,207,USA,Front
+Volkswagen,Passat GLS 1.8T,Wagon,"$24,955",Gasline,6,"$22,801",1.8,CA,4,170,22,31,3338,106,184,Europe,Front
+Volkswagen,Passat GLS 1.8T,Wagon,"$22,801",Gasline,6,"$24,955",1.8,CA,4,170,22,31,3338,106,184,Europe,Front
+Volkswagen,Passat GLS 4dr,Sedan,"$23,955",Gasline,6,"$21,898",1.8,CA,4,170,22,31,3241,106,185,Europe,Front
+Volkswagen,Passat GLS 4dr,Sedan,"$21,898",Gasline,6,"$23,955",1.8,CA,4,170,22,31,3241,106,185,Europe,Front
+Volkswagen,Passat GLX V6 4MOTION 4dr,Sedan,"$33,180",Gasline,6,"$30,583",2.8,CA,6,190,19,26,3721,106,185,Europe,Front
+Volkswagen,Passat GLX V6 4MOTION 4dr,Sedan,"$30,583",Gasline,6,"$33,180",2.8,CA,6,190,19,26,3721,106,185,Europe,Front
+Volkswagen,Passat W8,Wagon,"$40,235",Gasline,6,"$36,956",4,CA,8,270,18,25,4067,106,184,Europe,Front
+Volkswagen,Passat W8,Wagon,"$36,956",Gasline,6,"$40,235",4,CA,8,270,18,25,4067,106,184,Europe,Front
+Volkswagen,Passat W8 4MOTION 4dr,Sedan,"$39,235",Gasline,6,"$36,052",4,CA,8,270,18,25,3953,106,185,Europe,Front
+Volkswagen,Passat W8 4MOTION 4dr,Sedan,"$36,052",Gasline,6,"$39,235",4,CA,8,270,18,25,3953,106,185,Europe,Front
+Nissan,Pathfinder Armada SE,SUV,"$33,840",Petrol,9,"$30,815",5.6,CA,8,305,13,19,5013,123,207,Asia,Front
+Nissan,Pathfinder Armada SE,SUV,"$30,815",Petrol,9,"$33,840",5.6,CA,8,305,13,19,5013,123,207,Asia,Front
+Nissan,Pathfinder SE,SUV,"$27,339",Petrol,9,"$25,972",3.5,CA,6,240,16,21,3871,106,183,Asia,Front
+Nissan,Pathfinder SE,SUV,"$25,972",Petrol,9,"$27,339",3.5,CA,6,240,16,21,3871,106,183,Asia,Front
+Volkswagen,Phaeton 4dr,Sedan,"$65,000",Gasline,6,"$59,912",4.2,CA,8,335,16,22,5194,118,204,Europe,Front
+Volkswagen,Phaeton 4dr,Sedan,"$59,912",Gasline,6,"$65,000",4.2,CA,8,335,16,22,5194,118,204,Europe,Front
+Volkswagen,Phaeton W12 4dr,Sedan,"$75,000",Gasline,6,"$69,130",6,CA,12,420,12,19,5399,118,204,Europe,Front
+Volkswagen,Phaeton W12 4dr,Sedan,"$69,130",Gasline,6,"$75,000",6,CA,12,420,12,19,5399,118,204,Europe,Front
+Honda,Pilot LX,SUV,"$27,560",Petrol,9,"$24,843",3.5,CA,6,240,17,22,4387,106,188,Asia,All
+Honda,Pilot LX,SUV,"$24,843",Petrol,9,"$27,560",3.5,CA,6,240,17,22,4387,106,188,Asia,All
+Toyota,Prius 4dr (gas/electric),Hybrid,"$20,510",Petrol,9,"$18,926",1.5,CA,4,110,59,51,2890,106,175,Asia,Front
+Toyota,Prius 4dr (gas/electric),Hybrid,"$18,926",Petrol,9,"$20,510",1.5,CA,4,110,59,51,2890,106,175,Asia,Front
+Chrysler,PT Cruiser 4dr,Sedan,"$17,985",Electric,6,"$16,919",2.4,CA,4,150,22,29,3101,103,169,USA,Front
+Chrysler,PT Cruiser 4dr,Sedan,"$16,919",Electric,6,"$17,985",2.4,CA,4,150,22,29,3101,103,169,USA,Front
+Chrysler,PT Cruiser GT 4dr,Sedan,"$25,955",Electric,6,"$24,172",2.4,CA,4,220,21,27,3217,103,169,USA,Front
+Chrysler,PT Cruiser GT 4dr,Sedan,"$24,172",Electric,6,"$25,955",2.4,CA,4,220,21,27,3217,103,169,USA,Front
+Chrysler,PT Cruiser Limited 4dr,Sedan,"$22,000",Electric,6,"$20,573",2.4,CA,4,150,22,29,3105,103,169,USA,Front
+Chrysler,PT Cruiser Limited 4dr,Sedan,"$20,573",Diesel,9,"$22,000",2.4,FA,4,150,22,29,3105,103,169,USA,Front
+Infiniti,Q45 Luxury 4dr,Sedan,"$52,545",Petrol,9,"$47,575",4.5,CA,8,340,17,23,3977,113,200,Asia,Rear
+Infiniti,Q45 Luxury 4dr,Sedan,"$47,575",Petrol,9,"$52,545",4.5,CA,8,340,17,23,3977,113,200,Asia,Rear
+Nissan,Quest S,Sedan,"$24,780",Petrol,9,"$22,958",3.5,CA,6,240,19,26,4012,124,204,Asia,Front
+Nissan,Quest S,Sedan,"$22,958",Petrol,9,"$24,780",3.5,CA,6,240,19,26,4012,124,204,Asia,Front
+Nissan,Quest SE,Sedan,"$32,780",Petrol,9,"$30,019",3.5,CA,6,240,18,25,4175,124,204,Asia,Front
+Nissan,Quest SE,Sedan,"$30,019",Petrol,9,"$32,780",3.5,CA,6,240,18,25,4175,124,204,Asia,Front
+Buick,Rainier,SUV,"$37,895",Diesel,9,"$34,357",4.2,FA,6,275,15,21,4600,113,193,USA,All
+Buick,Rainier,SUV,"$34,357",Diesel,9,"$37,895",4.2,FA,6,275,15,21,4600,113,193,USA,All
+Dodge,Ram 1500 Regular Cab ST,Truck,"$20,215",Diesel,9,"$18,076",3.7,FA,6,215,16,21,4542,121,208,USA,Rear
+Dodge,Ram 1500 Regular Cab ST,Truck,"$18,076",Diesel,9,"$20,215",3.7,FA,6,215,16,21,4542,121,208,USA,Rear
+Land Rover,Range Rover HSE,SUV,"$72,250",Gasline,6,"$65,807",4.4,CA,8,282,12,16,5379,113,195,Europe,All
+Land Rover,Range Rover HSE,SUV,"$65,807",Gasline,6,"$72,250",4.4,CA,8,282,12,16,5379,113,195,Europe,All
+Ford,Ranger 2.3 XL Regular Cab,Truck,"$14,385",Diesel,9,"$13,717",2.3,FA,4,143,24,29,3028,111,188,USA,Rear
+Ford,Ranger 2.3 XL Regular Cab,Truck,"$13,717",Diesel,9,"$14,385",2.3,FA,4,143,24,29,3028,111,188,USA,Rear
+Toyota,RAV4,SUV,"$20,290",Petrol,9,"$18,553",2.4,CA,4,161,22,27,3119,98,167,Asia,All
+Toyota,RAV4,SUV,"$18,553",Petrol,9,"$20,290",2.4,CA,4,161,22,27,3119,98,167,Asia,All
+Buick,Regal GS 4dr,Sedan,"$28,345",Diesel,9,"$26,047",3.8,FA,6,240,18,28,3536,109,196,USA,Front
+Buick,Regal GS 4dr,Sedan,"$26,047",Diesel,9,"$28,345",3.8,FA,6,240,18,28,3536,109,196,USA,Front
+Buick,Regal LS 4dr,Sedan,"$24,895",Diesel,9,"$22,835",3.8,FA,6,200,20,30,3461,109,196,USA,Front
+Buick,Regal LS 4dr,Sedan,"$22,835",Diesel,9,"$24,895",3.8,FA,6,200,20,30,3461,109,196,USA,Front
+Buick,Rendezvous CX,SUV,"$26,545",Diesel,9,"$24,085",3.4,FA,6,185,19,26,4024,112,187,USA,Front
+Buick,Rendezvous CX,SUV,"$24,085",Diesel,9,"$26,545",3.4,FA,6,185,19,26,4024,112,187,USA,Front
+Kia,Rio 4dr auto,Sedan,"$11,155",Petrol,9,"$10,705",1.6,FA,4,104,25,32,2458,95,167,Asia,Front
+Kia,Rio 4dr auto,Sedan,"$10,705",Petrol,9,"$11,155",1.6,FA,4,104,25,32,2458,95,167,Asia,Front
+Kia,Rio 4dr manual,Sedan,"$10,280",Petrol,9,"$9,875",1.6,CA,4,104,26,33,2403,95,167,Asia,Front
+Kia,Rio 4dr manual,Sedan,"$9,875",Petrol,9,"$10,280",1.6,CA,4,104,26,33,2403,95,167,Asia,Front
+Kia,Rio Cinco,Wagon,"$11,905",Petrol,9,"$11,410",1.6,FA,4,104,26,33,2447,95,167,Asia,Front
+Kia,Rio Cinco,Wagon,"$11,410",Petrol,9,"$11,905",1.6,FA,4,104,26,33,2447,95,167,Asia,Front
+Isuzu,Rodeo S,SUV,"$20,449",Petrol,9,"$19,261",3.2,CA,6,193,17,21,3836,106,178,Asia,Front
+Isuzu,Rodeo S,SUV,"$19,261",Petrol,9,"$20,449",3.2,CA,6,193,17,21,3836,106,178,Asia,Front
+Audi,RS 6 4dr,Sports,"$84,600",Gasline,6,"$76,417",4.2,CA,8,450,15,22,4024,109,191,Europe,Front
+Audi,RS 6 4dr,Sports,"$76,417",Gasline,6,"$84,600",4.2,CA,8,450,15,22,4024,109,191,Europe,Front
+Acura,RSX Type S 2dr,Sedan,"$23,820",Petrol,9,"$21,761",2,FA,4,200,24,31,2778,101,172,Asia,Front
+Acura,RSX Type S 2dr,Sedan,"$21,761",Petrol,9,"$23,820",2,FA,4,200,24,31,2778,101,172,Asia,Front
+Lexus,RX 330,SUV,"$39,195",Petrol,9,"$34,576",3.3,FA,6,230,18,24,4065,107,186,Asia,All
+Lexus,RX 330,SUV,"$34,576",Petrol,9,"$39,195",3.3,FA,6,230,18,24,4065,107,186,Asia,All
+Mazda,RX-8 4dr automatic,Sports,"$25,700",Petrol,9,"$23,794",1.3,FA,,197,18,25,3053,106,174,Asia,Rear
+Mazda,RX-8 4dr automatic,Sports,"$23,794",Petrol,9,"$25,700",1.3,FA,,197,18,25,3053,106,174,Asia,Rear
+Mazda,RX-8 4dr manual,Sports,"$27,200",Petrol,9,"$25,179",1.3,CA,,238,18,24,3029,106,174,Asia,Rear
+Mazda,RX-8 4dr manual,Sports,"$25,179",Petrol,9,"$27,200",1.3,CA,,238,18,24,3029,106,174,Asia,Rear
+Honda,S2000 convertible 2dr,Sports,"$33,260",Petrol,9,"$29,965",2.2,FA,4,240,20,25,2835,95,162,Asia,Rear
+Honda,S2000 convertible 2dr,Sports,"$29,965",Petrol,9,"$33,260",2.2,FA,4,240,20,25,2835,95,162,Asia,Rear
+Audi,S4 Avant Quattro,Wagon,"$49,090",Gasline,6,"$44,446",4.2,CA,8,340,15,21,3936,104,179,Europe,All
+Audi,S4 Avant Quattro,Wagon,"$44,446",Gasline,6,"$49,090",4.2,CA,8,340,15,21,3936,104,179,Europe,All
+Audi,S4 Quattro 4dr,Sedan,"$48,040",Gasline,6,"$43,556",4.2,CA,8,340,14,20,3825,104,179,Europe,All
+Audi,S4 Quattro 4dr,Sedan,"$43,556",Gasline,6,"$48,040",4.2,CA,8,340,14,20,3825,104,179,Europe,All
+Volvo,S40 4dr,Sedan,"$25,135",Gasline,6,"$23,701",1.9,CA,4,170,22,29,2767,101,178,Europe,Front
+Volvo,S40 4dr,Sedan,"$23,701",Gasline,6,"$25,135",1.9,CA,4,170,22,29,2767,101,178,Europe,Front
+Mercedes-Benz,S430 4dr,Sedan,"$74,320",Gasline,6,"$69,168",4.3,CA,8,275,18,26,4160,122,203,Europe,Rear
+Mercedes-Benz,S430 4dr,Sedan,"$69,168",Gasline,6,"$74,320",4.3,CA,8,275,18,26,4160,122,203,Europe,Rear
+Mercedes-Benz,S500 4dr,Sedan,"$86,970",Gasline,6,"$80,939",5,CA,8,302,16,24,4390,122,203,Europe,All
+Mercedes-Benz,S500 4dr,Sedan,"$80,939",Gasline,6,"$86,970",5,CA,8,302,16,24,4390,122,203,Europe,All
+Volvo,S60 2.5 4dr,Sedan,"$31,745",Gasline,6,"$29,916",2.5,CA,5,208,20,27,3903,107,180,Europe,All
+Volvo,S60 2.5 4dr,Sedan,"$29,916",Gasline,6,"$31,745",2.5,CA,5,208,20,27,3903,107,180,Europe,All
+Volvo,S60 R 4dr,Sedan,"$37,560",Gasline,6,"$35,382",2.5,CA,5,300,18,25,3571,107,181,Europe,All
+Volvo,S60 R 4dr,Sedan,"$35,382",Gasline,6,"$37,560",2.5,CA,5,300,18,25,3571,107,181,Europe,All
+Volvo,S60 T5 4dr,Sedan,"$34,845",Gasline,6,"$32,902",2.3,CA,5,247,20,28,3766,107,180,Europe,Front
+Volvo,S60 T5 4dr,Sedan,"$32,902",Gasline,6,"$34,845",2.3,CA,5,247,20,28,3766,107,180,Europe,Front
+Volvo,S80 2.5T 4dr,Sedan,"$37,885",Gasline,6,"$35,688",2.5,CA,5,194,20,27,3691,110,190,Europe,All
+Volvo,S80 2.5T 4dr,Sedan,"$35,688",Gasline,6,"$37,885",2.5,CA,5,194,20,27,3691,110,190,Europe,All
+Volvo,S80 2.9 4dr,Sedan,"$37,730",Gasline,6,"$35,542",2.9,CA,6,208,20,28,3576,110,190,Europe,Front
+Volvo,S80 2.9 4dr,Sedan,"$35,542",Gasline,6,"$37,730",2.9,CA,6,208,20,28,3576,110,190,Europe,Front
+Volvo,S80 T6 4dr,Sedan,"$45,210",Gasline,6,"$42,573",2.9,CA,6,268,19,26,3653,110,190,Europe,Front
+Volvo,S80 T6 4dr,Sedan,"$42,573",Gasline,6,"$45,210",2.9,CA,6,268,19,26,3653,110,190,Europe,Front
+Mercury,Sable GS,Wagon,"$22,595",Diesel,9,"$20,748",3,FA,6,155,19,26,3488,109,198,USA,Front
+Mercury,Sable GS,Wagon,"$20,748",Diesel,9,"$22,595",3,FA,6,155,19,26,3488,109,198,USA,Front
+Mercury,Sable GS 4dr,Sedan,"$21,595",Diesel,9,"$19,848",3,FA,6,155,20,27,3308,109,200,USA,Front
+Mercury,Sable GS 4dr,Sedan,"$19,848",Diesel,9,"$21,595",3,FA,6,155,20,27,3308,109,200,USA,Front
+Mercury,Sable LS Premium 4dr,Sedan,"$23,895",Diesel,9,"$21,918",3,FA,6,201,19,26,3315,109,200,USA,Front
+Mercury,Sable LS Premium 4dr,Sedan,"$21,918",Diesel,9,"$23,895",3,FA,6,201,19,26,3315,109,200,USA,Front
+GMC,Safari SLE,Sedan,"$25,640",Diesel,9,"$23,215",4.3,FA,6,190,16,20,4309,111,190,USA,Rear
+GMC,Safari SLE,Sedan,"$23,215",Diesel,9,"$25,640",4.3,FA,6,190,16,20,4309,111,190,USA,Rear
+Hyundai,Santa Fe GLS,SUV,"$21,589",Petrol,9,"$20,201",2.7,CA,6,173,20,26,3549,103,177,Asia,Front
+Hyundai,Santa Fe GLS,SUV,"$20,201",Petrol,9,"$21,589",2.7,CA,6,173,20,26,3549,103,177,Asia,Front
+Lexus,SC 430 convertible 2dr,Sports,"$63,200",Petrol,9,"$55,063",4.3,CA,8,300,18,23,3840,103,178,Asia,Rear
+Lexus,SC 430 convertible 2dr,Sports,"$55,063",Petrol,9,"$63,200",4.3,CA,8,300,18,23,3840,103,178,Asia,Rear
+Chrysler,Sebring 4dr,Sedan,"$19,090",Diesel,9,"$17,805",2.4,FA,4,150,22,30,3173,108,191,USA,Front
+Chrysler,Sebring 4dr,Sedan,"$17,805",Diesel,9,"$19,090",2.4,FA,4,150,22,30,3173,108,191,USA,Front
+Chrysler,Sebring convertible 2dr,Sedan,"$25,215",Diesel,9,"$23,451",2.4,FA,4,150,22,30,3357,106,194,USA,Front
+Chrysler,Sebring convertible 2dr,Sedan,"$23,451",Diesel,9,"$25,215",2.4,FA,4,150,22,30,3357,106,194,USA,Front
+Chrysler,Sebring Limited convertible 2dr,Sedan,"$30,950",Diesel,9,"$28,613",2.7,FA,6,200,21,28,3448,106,194,USA,Front
+Chrysler,Sebring Limited convertible 2dr,Sedan,"$28,613",Diesel,9,"$30,950",2.7,FA,6,200,21,28,3448,106,194,USA,Front
+Chrysler,Sebring Touring 4dr,Sedan,"$21,840",Diesel,9,"$20,284",2.7,FA,6,200,21,28,3222,108,191,USA,Front
+Chrysler,Sebring Touring 4dr,Sedan,"$20,284",Diesel,9,"$21,840",2.7,FA,6,200,21,28,3222,108,191,USA,Front
+Kia,Sedona LX,Sedan,"$20,615",Petrol,9,"$19,400",3.5,FA,6,195,16,22,4802,115,194,Asia,Front
+Kia,Sedona LX,Sedan,"$19,400",Petrol,9,"$20,615",3.5,FA,6,195,16,22,4802,115,194,Asia,Front
+Nissan,Sentra 1.8 4dr,Sedan,"$12,740",Petrol,9,"$12,205",1.8,CA,4,126,28,35,2513,100,178,Asia,Front
+Nissan,Sentra 1.8 4dr,Sedan,"$12,205",Petrol,9,"$12,740",1.8,CA,4,126,28,35,2513,100,178,Asia,Front
+Nissan,Sentra 1.8 S 4dr,Sedan,"$14,740",Petrol,9,"$13,747",1.8,CA,4,126,28,35,2581,100,178,Asia,Front
+Nissan,Sentra 1.8 S 4dr,Sedan,"$13,747",Petrol,9,"$14,740",1.8,CA,4,126,28,35,2581,100,178,Asia,Front
+Nissan,Sentra SE-R 4dr,Sedan,"$17,640",Petrol,9,"$16,444",2.5,FA,4,165,23,28,2761,100,178,Asia,Front
+Nissan,Sentra SE-R 4dr,Sedan,"$16,444",Petrol,9,"$17,640",2.5,FA,4,165,23,28,2761,100,178,Asia,Front
+Toyota,Sequoia SR5,SUV,"$35,695",Petrol,9,"$31,827",4.7,FA,8,240,14,17,5270,118,204,Asia,All
+Toyota,Sequoia SR5,SUV,"$31,827",Petrol,9,"$35,695",4.7,FA,8,240,14,17,5270,118,204,Asia,All
+Cadillac,Seville SLS 4dr,Sedan,"$47,955",Diesel,9,"$43,841",4.6,FA,8,275,18,26,3992,112,201,USA,Front
+Cadillac,Seville SLS 4dr,Sedan,"$43,841",Diesel,9,"$47,955",4.6,FA,8,275,18,26,3992,112,201,USA,Front
+Toyota,Sienna CE,Sedan,"$23,495",Petrol,9,"$21,198",3.3,FA,6,230,19,27,4120,119,200,Asia,Front
+Toyota,Sienna CE,Sedan,"$21,198",Petrol,9,"$23,495",3.3,FA,6,230,19,27,4120,119,200,Asia,Front
+Toyota,Sienna XLE Limited,Sedan,"$28,800",Petrol,9,"$25,690",3.3,FA,6,230,19,27,4165,119,200,Asia,Front
+Toyota,Sienna XLE Limited,Sedan,"$25,690",Petrol,9,"$28,800",3.3,FA,6,230,19,27,4165,119,200,Asia,Front
+GMC,Sierra Extended Cab 1500,Truck,"$25,717",Diesel,9,"$22,604",4.8,FA,8,285,17,20,4548,144,230,USA,Rear
+GMC,Sierra Extended Cab 1500,Truck,"$22,604",Diesel,9,"$25,717",4.8,FA,8,285,17,20,4548,144,230,USA,Rear
+GMC,Sierra HD 2500,Truck,"$29,322",Diesel,9,"$25,759",6,FA,8,300,13,18,5440,133,222,USA,All
+GMC,Sierra HD 2500,Truck,"$25,759",Diesel,9,"$29,322",6,FA,8,300,13,18,5440,133,222,USA,All
+Oldsmobile,Silhouette GL,Sedan,"$28,790",Diesel,9,"$26,120",3.4,FA,6,185,19,26,3948,120,201,USA,Front
+Oldsmobile,Silhouette GL,Sedan,"$26,120",Diesel,9,"$28,790",3.4,FA,6,185,19,26,3948,120,201,USA,Front
+Chevrolet,Silverado 1500 Regular Cab,Truck,"$20,310",Diesel,9,"$18,480",4.3,FA,6,200,15,21,4142,119,206,USA,Rear
+Chevrolet,Silverado 1500 Regular Cab,Truck,"$18,480",Diesel,9,"$20,310",4.3,FA,6,200,15,21,4142,119,206,USA,Rear
+Chevrolet,Silverado SS,Truck,"$40,340",Diesel,9,"$35,399",6,FA,8,300,13,17,4804,144,238,USA,All
+Chevrolet,Silverado SS,Truck,"$35,399",Petrol,9,"$40,340",6,FA,8,300,13,17,4804,144,238,USA,All
+Mercedes-Benz,SL500 convertible 2dr,Sports,"$90,520",Gasline,6,"$84,325",5,CA,8,302,16,23,4065,101,179,Europe,Rear
+Mercedes-Benz,SL500 convertible 2dr,Sports,"$84,325",Gasline,6,"$90,520",5,CA,8,302,16,23,4065,101,179,Europe,Rear
+Mercedes-Benz,SL55 AMG 2dr,Sports,"$121,770",Gasline,6,"$113,388",5.5,CA,8,493,14,21,4235,101,179,Europe,Rear
+Mercedes-Benz,SL55 AMG 2dr,Sports,"$113,388",Gasline,7,"$121,770",5.5,CA,8,493,14,21,4235,101,179,Europe,Rear
+Mercedes-Benz,SL600 convertible 2dr,Sports,"$126,670",Gasline,7,"$117,854",5.5,CA,12,493,13,19,4429,101,179,Europe,Rear
+Mercedes-Benz,SL600 convertible 2dr,Sports,"$117,854",Gasline,7,"$126,670",5.5,CA,12,493,13,19,4429,101,179,Europe,Rear
+Mercedes-Benz,SLK230 convertible 2dr,Sports,"$40,320",Gasline,7,"$37,548",2.3,CA,4,192,21,29,3055,95,158,Europe,Rear
+Mercedes-Benz,SLK230 convertible 2dr,Sports,"$37,548",Gasline,7,"$40,320",2.3,CA,4,192,21,29,3055,95,158,Europe,Rear
+Mercedes-Benz,SLK32 AMG 2dr,Sports,"$56,170",Gasline,7,"$52,289",3.2,CA,6,349,17,22,3220,95,158,Europe,Rear
+Mercedes-Benz,SLK32 AMG 2dr,Sports,"$52,289",Gasline,7,"$56,170",3.2,CA,6,349,17,22,3220,95,158,Europe,Rear
+Hyundai,Sonata GLS 4dr,Sedan,"$19,339",Petrol,9,"$17,574",2.7,FA,6,170,19,27,3217,106,187,Asia,Front
+Hyundai,Sonata GLS 4dr,Sedan,"$17,574",Petrol,9,"$19,339",2.7,FA,6,170,19,27,3217,106,187,Asia,Front
+Hyundai,Sonata LX 4dr,Sedan,"$20,339",Petrol,9,"$18,380",2.7,FA,6,170,19,27,3217,106,187,Asia,Front
+Hyundai,Sonata LX 4dr,Sedan,"$18,380",Petrol,9,"$20,339",2.7,FA,6,170,19,27,3217,106,187,Asia,Front
+GMC,Sonoma Crew Cab,Truck,"$25,395",Petrol,9,"$23,043",4.3,CA,6,190,15,19,4083,123,208,USA,All
+GMC,Sonoma Crew Cab,Truck,"$23,043",Petrol,9,"$25,395",4.3,CA,6,190,15,19,4083,123,208,USA,All
+Kia,Sorento LX,SUV,"$19,635",Petrol,9,"$18,630",3.5,CA,6,192,16,19,4112,107,180,Asia,Front
+Kia,Sorento LX,SUV,"$18,630",Petrol,9,"$19,635",3.5,CA,6,192,16,19,4112,107,180,Asia,Front
+Kia,Spectra 4dr,Sedan,"$12,360",Petrol,9,"$11,630",1.8,CA,4,124,24,32,2661,101,178,Asia,Front
+Kia,Spectra 4dr,Sedan,"$11,630",Petrol,9,"$12,360",1.8,CA,4,124,24,32,2661,101,178,Asia,Front
+Kia,Spectra GS 4dr hatch,Sedan,"$13,580",Petrol,9,"$12,830",1.8,CA,4,124,24,32,2686,101,178,Asia,Front
+Kia,Spectra GS 4dr hatch,Sedan,"$12,830",Petrol,9,"$13,580",1.8,CA,4,124,24,32,2686,101,178,Asia,Front
+Kia,Spectra GSX 4dr hatch,Sedan,"$14,630",Petrol,9,"$13,790",1.8,CA,4,124,24,32,2697,101,178,Asia,Front
+Kia,Spectra GSX 4dr hatch,Sedan,"$13,790",Petrol,9,"$14,630",1.8,CA,4,124,24,32,2697,101,178,Asia,Front
+Cadillac,SRX V8,SUV,"$46,995",Petrol,9,"$43,523",4.6,FA,8,320,16,21,4302,116,195,USA,Front
+Cadillac,SRX V8,SUV,"$43,523",Petrol,9,"$46,995",4.6,FA,8,320,16,21,4302,116,195,USA,Front
+Chevrolet,SSR,Truck,"$41,995",Petrol,9,"$39,306",5.3,FA,8,300,16,19,4760,116,191,USA,Rear
+Chevrolet,SSR,Truck,"$39,306",Petrol,9,"$41,995",5.3,FA,8,300,16,19,4760,116,191,USA,Rear
+Dodge,Stratus SE 4dr,Sedan,"$20,220",Petrol,9,"$18,821",2.4,CA,4,150,21,28,3175,108,191,USA,Front
+Dodge,Stratus SE 4dr,Sedan,"$18,821",Petrol,9,"$20,220",2.4,CA,4,150,21,28,3175,108,191,USA,Front
+Dodge,Stratus SXT 4dr,Sedan,"$18,820",Petrol,9,"$17,512",2.4,CA,4,150,21,28,3182,108,191,USA,Front
+Dodge,Stratus SXT 4dr,Sedan,"$17,512",Petrol,9,"$18,820",2.4,CA,4,150,21,28,3182,108,191,USA,Front
+Jaguar,S-Type 3.0 4dr,Sedan,"$43,895",Gasline,7,"$40,004",3,CA,6,235,18,26,3777,115,192,Europe,Rear
+Jaguar,S-Type 3.0 4dr,Sedan,"$40,004",Gasline,7,"$43,895",3,CA,6,235,18,26,3777,115,192,Europe,Rear
+Jaguar,S-Type 4.2 4dr,Sedan,"$49,995",Gasline,7,"$45,556",4.2,CA,8,294,18,28,3874,115,192,Europe,Rear
+Jaguar,S-Type 4.2 4dr,Sedan,"$45,556",Gasline,7,"$49,995",4.2,CA,8,294,18,28,3874,115,192,Europe,Rear
+Jaguar,S-Type R 4dr,Sedan,"$63,120",Gasline,7,"$57,499",4.2,CA,8,390,17,24,4046,115,192,Europe,Rear
+Jaguar,S-Type R 4dr,Sedan,"$57,499",Gasline,7,"$63,120",4.2,CA,8,390,17,24,4046,115,192,Europe,Rear
+Chevrolet,Suburban 1500 LT,SUV,"$42,735",Petrol,9,"$37,422",5.3,FA,8,295,14,18,4947,130,219,USA,Front
+Chevrolet,Suburban 1500 LT,SUV,"$37,422",Petrol,9,"$42,735",5.3,FA,8,295,14,18,4947,130,219,USA,Front
+Pontiac,Sunfire 1SA 2dr,Sedan,"$15,495",Petrol,9,"$14,375",2.2,FA,4,140,24,33,2771,104,182,USA,Front
+Pontiac,Sunfire 1SA 2dr,Sedan,"$14,375",Petrol,9,"$15,495",2.2,FA,4,140,24,33,2771,104,182,USA,Front
+Pontiac,Sunfire 1SC 2dr,Sedan,"$17,735",Petrol,9,"$16,369",2.2,CA,4,140,24,33,2771,104,182,USA,Front
+Pontiac,Sunfire 1SC 2dr,Sedan,"$16,369",Petrol,9,"$17,735",2.2,CA,4,140,24,33,2771,104,182,USA,Front
+Toyota,Tacoma,Truck,"$12,800",Petrol,9,"$11,879",2.4,CA,4,142,22,27,2750,103,191,Asia,Rear
+Toyota,Tacoma,Truck,"$11,879",Petrol,9,"$12,800",2.4,CA,4,142,22,27,2750,103,191,Asia,Rear
+Chevrolet,Tahoe LT,SUV,"$41,465",Petrol,9,"$36,287",5.3,CA,8,295,14,18,5050,116,197,USA,All
+Chevrolet,Tahoe LT,SUV,"$36,287",Petrol,9,"$41,465",5.3,CA,8,295,14,18,5050,116,197,USA,All
+Ford,Taurus LX 4dr,Sedan,"$20,320",Petrol,9,"$18,881",3,CA,6,155,20,27,3306,109,198,USA,Front
+Ford,Taurus LX 4dr,Sedan,"$18,881",Petrol,9,"$20,320",3,CA,6,155,20,27,3306,109,198,USA,Front
+Ford,Taurus SE,Wagon,"$22,290",Petrol,9,"$20,457",3,CA,6,155,19,26,3497,109,198,USA,Front
+Ford,Taurus SE,Wagon,"$20,457",Petrol,9,"$22,290",3,CA,6,155,19,26,3497,109,198,USA,Front
+Ford,Taurus SES Duratec 4dr,Sedan,"$22,735",Petrol,9,"$20,857",3,FA,6,201,19,26,3313,109,198,USA,Front
+Ford,Taurus SES Duratec 4dr,Sedan,"$20,857",Petrol,9,"$22,735",3,FA,6,201,19,26,3313,109,198,USA,Front
+Ford,Thunderbird Deluxe convert w/hardtop 2d,Sports,"$37,530",Petrol,9,"$34,483",3.9,FA,8,280,17,24,3780,107,186,USA,Front
+Ford,Thunderbird Deluxe convert w/hardtop 2d,Sports,"$34,483",Petrol,9,"$37,530",3.9,FA,8,280,17,24,3780,107,186,USA,Front
+Hyundai,Tiburon GT V6 2dr,Sports,"$18,739",Petrol,9,"$17,101",2.7,CA,6,172,19,26,3023,100,173,Asia,Front
+Hyundai,Tiburon GT V6 2dr,Sports,"$17,101",Petrol,9,"$18,739",2.7,CA,6,172,19,26,3023,100,173,Asia,Front
+Nissan,Titan King Cab XE,Truck,"$26,650",Petrol,9,"$24,926",5.6,CA,8,305,14,18,5287,140,224,Asia,All
+Nissan,Titan King Cab XE,Truck,"$24,926",Petrol,9,"$26,650",5.6,CA,8,305,14,18,5287,140,224,Asia,All
+Acura,TL 4dr,Sedan,"$33,195",Petrol,9,"$30,299",3.2,CA,6,270,20,28,3575,108,186,Asia,Front
+Acura,TL 4dr,Sedan,"$30,299",Petrol,9,"$33,195",3.2,CA,6,270,20,28,3575,108,186,Asia,Front
+Volkswagen,Touareg V6,SUV,"$35,515",Gasline,7,"$32,243",3.2,CA,6,220,15,20,5086,112,187,Europe,All
+Volkswagen,Touareg V6,SUV,"$32,243",Gasline,7,"$35,515",3.2,CA,6,220,15,20,5086,112,187,Europe,All
+Chrysler,Town and Country Limited,Sedan,"$38,380",Petrol,9,"$35,063",3.8,CA,6,215,18,25,4331,119,201,USA,Front
+Chrysler,Town and Country Limited,Sedan,"$35,063",Petrol,9,"$38,380",3.8,CA,6,215,18,25,4331,119,201,USA,Front
+Chrysler,Town and Country LX,Sedan,"$27,490",Petrol,9,"$25,371",3.3,FA,6,180,19,26,4068,119,201,USA,Front
+Chrysler,Town and Country LX,Sedan,"$25,371",Petrol,9,"$27,490",3.3,FA,6,180,19,26,4068,119,201,USA,Front
+Lincoln,Town Car Signature 4dr,Sedan,"$41,815",Petrol,9,"$38,418",4.6,FA,8,239,17,25,4369,118,215,USA,Rear
+Lincoln,Town Car Signature 4dr,Sedan,"$38,418",Petrol,9,"$41,815",4.6,FA,8,239,17,25,4369,118,215,USA,Rear
+Lincoln,Town Car Ultimate 4dr,Sedan,"$44,925",Petrol,9,"$41,217",4.6,CA,8,239,17,25,4369,118,215,USA,Rear
+Lincoln,Town Car Ultimate 4dr,Sedan,"$41,217",Petrol,9,"$44,925",4.6,CA,8,239,17,25,4369,118,215,USA,Rear
+Lincoln,Town Car Ultimate L 4dr,Sedan,"$50,470",Petrol,9,"$46,208",4.6,CA,8,239,17,25,4474,124,221,USA,Rear
+Lincoln,Town Car Ultimate L 4dr,Sedan,"$46,208",Petrol,9,"$50,470",4.6,CA,8,239,17,25,4474,124,221,USA,Rear
+Chevrolet,Tracker,SUV,"$20,255",Petrol,9,"$19,108",2.5,CA,6,165,19,22,2866,98,163,USA,Front
+Chevrolet,Tracker,SUV,"$19,108",Petrol,9,"$20,255",2.5,CA,6,165,19,22,2866,98,163,USA,Front
+Chevrolet,TrailBlazer LT,SUV,"$30,295",Petrol,9,"$27,479",4.2,CA,6,275,16,21,4425,113,192,USA,Front
+Chevrolet,TrailBlazer LT,SUV,"$27,479",Petrol,9,"$30,295",4.2,CA,6,275,16,21,4425,113,192,USA,Front
+Mazda,Tribute DX 2.0,SUV,"$21,087",Petrol,9,"$19,742",2,CA,4,130,22,25,3091,103,173,Asia,All
+Mazda,Tribute DX 2.0,SUV,"$19,742",Petrol,9,"$21,087",2,CA,4,130,22,25,3091,103,173,Asia,All
+Acura,TSX 4dr,Sedan,"$26,990",Petrol,9,"$24,647",2.4,FA,4,200,22,29,3230,105,183,Asia,Front
+Acura,TSX 4dr,Sedan,"$24,647",Petrol,9,"$26,990",2.4,FA,4,200,22,29,3230,105,183,Asia,Front
+Audi,TT 1.8 convertible 2dr (coupe),Sports,"$35,940",Gasline,7,"$32,512",1.8,CA,4,180,20,28,3131,95,159,Europe,Front
+Audi,TT 1.8 convertible 2dr (coupe),Sports,"$32,512",Gasline,7,"$35,940",1.8,CA,4,180,20,28,3131,95,159,Europe,Front
+Audi,TT 1.8 Quattro 2dr (convertible),Sports,"$37,390",Gasline,7,"$33,891",1.8,CA,4,225,20,28,2921,96,159,Europe,All
+Audi,TT 1.8 Quattro 2dr (convertible),Sports,"$33,891",Gasline,7,"$37,390",1.8,CA,4,225,20,28,2921,96,159,Europe,All
+Audi,TT 3.2 coupe 2dr (convertible),Sports,"$40,590",Gasline,7,"$36,739",3.2,CA,6,250,21,29,3351,96,159,Europe,All
+Audi,TT 3.2 coupe 2dr (convertible),Sports,"$36,739",Gasline,7,"$40,590",3.2,CA,6,250,21,29,3351,96,159,Europe,All
+Toyota,Tundra Access Cab V6 SR5,Truck,"$25,935",Petrol,9,"$23,520",3.4,CA,6,190,14,17,4435,128,218,Asia,All
+Toyota,Tundra Access Cab V6 SR5,Truck,"$23,520",Petrol,9,"$25,935",3.4,CA,6,190,14,17,4435,128,218,Asia,All
+Toyota,Tundra Regular Cab V6,Truck,"$16,495",Petrol,9,"$14,978",3.4,CA,6,190,16,18,3925,128,218,Asia,Rear
+Toyota,Tundra Regular Cab V6,Truck,"$14,978",Petrol,9,"$16,495",3.4,CA,6,190,16,18,3925,128,218,Asia,Rear
+Volvo,V40,Wagon,"$26,135",Gasline,7,"$24,641",1.9,CA,4,170,22,29,2822,101,180,Europe,Front
+Volvo,V40,Wagon,"$24,641",Gasline,7,"$26,135",1.9,CA,4,170,22,29,2822,101,180,Europe,Front
+Jaguar,Vanden Plas 4dr,Sedan,"$68,995",Gasline,7,"$62,846",4.2,CA,8,294,18,28,3803,119,200,Europe,Rear
+Jaguar,Vanden Plas 4dr,Sedan,"$62,846",Gasline,7,"$68,995",4.2,CA,8,294,18,28,3803,119,200,Europe,Rear
+Chevrolet,Venture LS,Sedan,"$27,020",Petrol,4,"$24,518",3.4,CA,6,185,19,26,3699,112,187,USA,Front
+Chevrolet,Venture LS,Sedan,"$24,518",Petrol,4,"$27,020",3.4,CA,6,185,19,26,3699,112,187,USA,Front
+Suzuki,Verona LX 4dr,Sedan,"$17,262",Petrol,4,"$17,053",2.5,CA,6,155,20,27,3380,106,188,Asia,Front
+Suzuki,Verona LX 4dr,Sedan,"$17,053",Petrol,4,"$17,262",2.5,CA,6,155,20,27,3380,106,188,Asia,Front
+Pontiac,Vibe,Wagon,"$17,045",Petrol,4,"$15,973",1.8,CA,4,130,29,36,2701,102,172,USA,Rear
+Pontiac,Vibe,Wagon,"$15,973",Petrol,4,"$17,045",1.8,CA,4,130,29,36,2701,102,172,USA,Rear
+Dodge,Viper SRT-10 convertible 2dr,Sports,"$81,795",Petrol,4,"$74,451",8.3,CA,10,500,12,20,3410,99,176,USA,Rear
+Dodge,Viper SRT-10 convertible 2dr,Sports,"$74,451",Petrol,4,"$81,795",8.3,CA,10,500,12,20,3410,99,176,USA,Rear
+Suzuki,Vitara LX,SUV,"$17,163",Petrol,4,"$16,949",2.5,CA,6,165,19,22,3020,98,163,Asia,All
+Suzuki,Vitara LX,SUV,"$16,949",Petrol,4,"$17,163",2.5,CA,6,165,19,22,3020,98,163,Asia,All
+Saturn,VUE,SUV,"$20,585",Petrol,4,"$19,238",2.2,CA,4,143,21,26,3381,107,181,USA,All
+Saturn,VUE,SUV,"$19,238",Petrol,4,"$20,585",2.2,CA,4,143,21,26,3381,107,181,USA,All
+Jeep,Wrangler Sahara convertible 2dr,SUV,"$25,520",Petrol,4,"$23,275",4,CA,6,190,16,19,3575,93,150,USA,All
+Jeep,Wrangler Sahara convertible 2dr,SUV,"$23,275",Petrol,4,"$25,520",4,CA,6,190,16,19,3575,93,150,USA,All
+BMW,X3 3.0i,SUV,"$37,000",Gasline,7,"$33,873",3,CA,6,225,16,23,4023,110,180,Europe,All
+BMW,X3 3.0i,SUV,"$33,873",Gasline,7,"$37,000",3,CA,6,225,16,23,4023,110,180,Europe,All
+BMW,X5 4.4i,SUV,"$52,195",Gasline,7,"$47,720",4.4,CA,8,325,16,22,4824,111,184,Europe,All
+BMW,X5 4.4i,SUV,"$47,720",Gasline,7,"$52,195",4.4,CA,8,325,16,22,4824,111,184,Europe,All
+Scion,xA 4dr hatch,Sedan,"$12,965",Petrol,4,"$12,340",1.5,CA,4,108,32,38,2340,93,154,Asia,Front
+Scion,xA 4dr hatch,Sedan,"$12,340",Petrol,4,"$12,965",1.5,CA,4,108,32,38,2340,93,154,Asia,Front
+Scion,xB,Wagon,"$14,165",Petrol,4,"$13,480",1.5,CA,4,108,31,35,2425,98,155,Asia,Front
+Scion,xB,Wagon,"$13,480",Petrol,4,"$14,165",1.5,CA,4,108,31,35,2425,98,155,Asia,Front
+Volvo,XC70,Wagon,"$35,145",Gasline,7,"$33,112",2.5,CA,5,208,20,27,3823,109,186,Europe,All
+Volvo,XC70,Wagon,"$33,112",Gasline,7,"$35,145",2.5,CA,5,208,20,27,3823,109,186,Europe,All
+Volvo,XC90 T6,SUV,"$41,250",Gasline,7,"$38,851",2.9,CA,6,268,15,20,4638,113,189,Europe,All
+Volvo,XC90 T6,SUV,"$38,851",Gasline,7,"$41,250",2.9,CA,6,268,15,20,4638,113,189,Europe,All
+Hyundai,XG350 4dr,Sedan,"$24,589",Petrol,4,"$22,055",3.5,CA,6,194,17,26,3651,108,192,Asia,Front
+Hyundai,XG350 4dr,Sedan,"$22,055",Petrol,4,"$24,589",3.5,CA,6,194,17,26,3651,108,192,Asia,Front
+Hyundai,XG350 L 4dr,Sedan,"$26,189",Petrol,4,"$23,486",3.5,CA,6,194,17,26,3651,108,192,Asia,Front
+Hyundai,XG350 L 4dr,Sedan,"$23,486",Petrol,4,"$26,189",3.5,CA,6,194,17,26,3651,108,192,Asia,Front
+Jaguar,XJ8 4dr,Sedan,"$59,995",Gasline,7,"$54,656",4.2,CA,8,294,18,28,3803,119,200,Europe,Rear
+Jaguar,XJ8 4dr,Sedan,"$54,656",Gasline,7,"$59,995",4.2,CA,8,294,18,28,3803,119,200,Europe,Rear
+Jaguar,XJR 4dr,Sedan,"$74,995",Gasline,7,"$68,306",4.2,CA,8,390,17,24,3948,119,200,Europe,Rear
+Jaguar,XJR 4dr,Sedan,"$68,306",Gasline,7,"$74,995",4.2,CA,8,390,17,24,3948,119,200,Europe,Rear
+Jaguar,XK8 convertible 2dr,Sports,"$74,995",Gasline,7,"$68,306",4.2,CA,8,294,18,26,3980,102,187,Europe,Rear
+Jaguar,XK8 convertible 2dr,Sports,"$68,306",Gasline,7,"$74,995",4.2,CA,8,294,18,26,3980,102,187,Europe,Rear
+Jaguar,XK8 coupe 2dr,Sports,"$69,995",Gasline,7,"$63,756",4.2,CA,8,294,18,26,3779,102,187,Europe,Rear
+Jaguar,XK8 coupe 2dr,Sports,"$63,756",Gasline,7,"$69,995",4.2,CA,8,294,18,26,3779,102,187,Europe,Rear
+Jaguar,XKR convertible 2dr,Sports,"$86,995",Gasline,7,"$79,226",4.2,CA,8,390,16,23,4042,102,187,Europe,Rear
+Jaguar,XKR convertible 2dr,Sports,"$79,226",Gasline,7,"$86,995",4.2,CA,8,390,16,23,4042,102,187,Europe,Rear
+Jaguar,XKR coupe 2dr,Sports,"$81,995",Gasline,7,"$74,676",4.2,CA,8,390,16,23,3865,102,187,Europe,Rear
+Jaguar,XKR coupe 2dr,Sports,"$74,676",Gasline,7,"$81,995",4.2,CA,8,390,16,23,3865,102,187,Europe,Rear
+Suzuki,XL-7 EX,SUV,"$23,699",Petrol,4,"$22,307",2.7,CA,6,185,18,22,3682,110,187,Asia,Front
+Suzuki,XL-7 EX,SUV,"$22,307",Petrol,4,"$23,699",2.7,CA,6,185,18,22,3682,110,187,Asia,Front
+Cadillac,XLR convertible 2dr,Sports,"$76,200",Petrol,4,"$70,546",4.6,CA,8,320,17,25,3647,106,178,USA,Rear
+Cadillac,XLR convertible 2dr,Sports,"$70,546",Petrol,4,"$76,200",4.6,CA,8,320,17,25,3647,106,178,USA,Rear
+Nissan,Xterra XE V6,SUV,"$20,939",Petrol,4,"$19,512",3.3,CA,6,180,17,20,3760,104,178,Asia,Front
+Nissan,Xterra XE V6,SUV,"$19,512",Petrol,4,"$20,939",3.3,CA,6,180,17,20,3760,104,178,Asia,Front
+Jaguar,X-Type 2.5 4dr,Sedan,"$29,995",Gasline,7,"$27,355",2.5,CA,6,192,18,26,3428,107,184,Europe,All
+Jaguar,X-Type 2.5 4dr,Sedan,"$27,355",Gasline,7,"$29,995",2.5,CA,6,192,18,26,3428,107,184,Europe,All
+Jaguar,X-Type 3.0 4dr,Sedan,"$33,995",Gasline,7,"$30,995",3,CA,6,227,18,25,3516,107,184,Europe,All
+Jaguar,X-Type 3.0 4dr,Sedan,"$30,995",Gasline,7,"$33,995",3,CA,6,227,18,25,3516,107,184,Europe,All
+GMC,Yukon 1500 SLE,SUV,"$35,725",Petrol,4,"$31,361",4.8,CA,8,285,16,19,5042,116,199,USA,Front
+GMC,Yukon 1500 SLE,SUV,"$31,361",Petrol,4,"$35,725",4.8,CA,8,285,16,19,5042,116,199,USA,Front
+GMC,Yukon XL 2500 SLT,SUV,"$46,265",Petrol,4,"$40,534",6,CA,8,325,13,17,6133,130,219,USA,All
+GMC,Yukon XL 2500 SLT,SUV,"$40,534",Petrol,4,"$46,265",6,CA,8,325,13,17,6133,130,219,USA,All
+BMW,Z4 convertible 2.5i 2dr,Sports,"$33,895",Gasline,7,"$31,065",2.5,CA,6,184,20,28,2932,98,161,Europe,Rear
+BMW,Z4 convertible 2.5i 2dr,Sports,"$31,065",Gasline,7,"$33,895",2.5,CA,6,184,20,28,2932,98,161,Europe,Rear
+BMW,Z4 convertible 3.0i 2dr,Sports,"$41,045",Gasline,7,"$37,575",3,CA,6,225,21,29,2998,98,161,Europe,Rear
+BMW,Z4 convertible 3.0i 2dr,Sports,"$37,575",Gasline,7,"$41,045",3,CA,6,225,21,29,2998,98,161,Europe,Rear
