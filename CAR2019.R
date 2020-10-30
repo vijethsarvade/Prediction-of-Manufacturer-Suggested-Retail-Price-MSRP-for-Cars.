@@ -1,36 +1,34 @@
-car=read.csv("C:\\Users\\Prashanthi\\Desktop\\R_working\\datasets_Cars.csv")
-nrows(car)
+car=read.csv("D:\\Data\\R_working\\datasets_Cars.csv")
+nrow(car)
 ncol(car)
 names(car)
 str(car)
 summary(car)
-
-#1.Data Pre-processing
-
-#a.Identification and removal irrelevant variables
+#1.Data Preprocessing
+#a.Identification and removal irrelevent variables 
 #Checking where most of my data is located and spread out in all variables
 table(factor(car$Make))
+#Out of 856 observations in variable make, data is spread equally between all categories.
 table(factor(car$Type))
+#Out of 856 observations in variable type, data Sedan has 524 which is more than half compaired to others.
 table(factor(car$Fuel))
-table(factor(car$Origin))
-table(factor(car$DriveTrain))
-#We can clearly see that most of the data is spread in column fuel
+#Out of 856 observations in variable fule, data is spreed most equal.
 #So i will keep Make column and Fuel column and remove columns like Model,Type,Airpollution score,Invoice,Cert.Region,Origin,DrveTrain.
 #AS these columns seems irrelavent for Price of the cars
 library(dplyr)
 car1=select(car,Make,Fuel,MSRP,EngineSize,Cylinders,Horsepower,MPG_City,MPG_Highway,Weight,Wheelbase,Length)
 
-#b.Identification and removal duplicates
+#b.Identification and removal duplicates.
 dim(car1[duplicated(car1$MSRP),])[1]  #(row)
-#there are 24 unique vaues
+#there are 24 unique vaues which is removed.
 car2=car1[!duplicated(car$MSRP),]
 
 #C.Formatting and data type conversion
 #We can see that MSRP (Price) variable in stored in string data type due to $ sign. So its imported to remove $ sign and convert the column to numeric data type
 car2$MSRP=as.numeric(gsub("\\$|,","",car2$MSRP))
-class(car2$MSRP)#forchecking whether the data type has changed.
+class(car2$MSRP)#check whether the data type has changed to numeric.
 
-#2.Exploratory data analysis
+#2.Exploratory data annalysis
 
 #a.Identification,visualizing and filling of missing values
 any(is.na(car2))
@@ -63,7 +61,7 @@ boxplot(car4)
 #car5=car2%>%                     #with out droping the text column
  # mutate_if(is.numeric,iqr)
 
-#c.Correlation check
+#c.Checking of correlation
 cor(car4)
 pairs(car4,upper.panel = NULL)
 #to understand the correlation between Price and other variables we use correlation matrix
@@ -76,8 +74,7 @@ ggplot(car4,aes(x=Horsepower,y=MSRP))+geom_point()
 cor(car4[,c("Horsepower","MSRP")])
 
 #Model Building
-
-#simple liner regression
+#simple lenior regression
 #Prediction of Price when the Hoursepower is 225,250,275,300
 
 #a.Visulising the best fit line(Mean line) passing through variables MSRP and Hoursepower
@@ -85,7 +82,7 @@ pairs(car4$MSRP~car4$Horsepower)
 plot(car4$MSRP,car4$Horsepower)
 abline(h=mean(car4$MSRP),v=mean(car4$Horsepower),col="red",untf = FALSE)
 
-#b.Applying the lenior regression
+#b.Applying the linear regression
 car_model=lm(MSRP~Horsepower,car4)
 car_model
 #Intercept value(b0)=-7133.667
@@ -101,19 +98,20 @@ p=ggplot(car4,aes(y=MSRP,x=Horsepower))+geom_point()+geom_smooth(method = lm,se=
 p+scale_color_continuous(low ="55D8CE", high="#FF6E2E")
 
 summary(car_model)
-conclusion:
+#conclusion: Simple linear regression R2 = 71.62%
 
-#Multi lenior regression
-#Prediction of MSRP(Price)when EngineSize=3.5 Cylinders=6 Horsepower=225 MPG_City=18 MPG_Highway=24 Weight=3880  Wheelbase= 115 Length=197
+#Multi linear regression
+#Prediction of MSRP(Price)when EngineSize=3.5 Cylinders=6 Horsepower=225 MPG_City=18 MPG_Highway=24 Weight=3880  Wheelbase= 115 Length= 19
 car_model2=lm(MSRP~EngineSize+Cylinders+Horsepower+MPG_City+MPG_Highway+Weight+Wheelbase+Length,car4)
 summary(car_model2)
-#Model Prediction
-predict(car_model,data.frame(EngineSize=c(3.5)
+#conclusion: Simple linear regression R2 = 77.11%
+#Model Prediction when engine=3.5, cyl=6, Horse=225, MPG_city=18, MPG_highway=24, weight=3880, wheelbase=115, len=19
+predict(car_model2,data.frame(EngineSize=c(3.5)
                              ,Cylinders=c(6)
                              ,Horsepower=c(225)
-                             ,MPG_City=c(18)  
-                             ,MPG_Highway=c(24)
-                             ,Weight=c(3880)
-                             ,Wheelbase=c(115)
-                             ,Length=c(197)))
-conclusion:
+                             ,MPG_City=18   
+                             ,MPG_Highway=24  
+                             ,Weight=3880  
+                             ,Wheelbase= 115 
+                             ,Length= 19))
+#63996.38
